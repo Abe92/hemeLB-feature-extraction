@@ -1,2 +1,3 @@
-# hemeLB-machine_learning
-Predicting the formation of aneurysm
+# hemeLB-feature_extraction
+
+Applying the concept of feature extraction to hemeLB raw file
