@@ -30,5 +30,5 @@ with open ('your-csv-file-name') as csvfile:
         """
       
 #4
-seconds = ((x[:,0])/1000) % 60
+seconds = (x[:,0]) * 0.000004
 print(seconds)
