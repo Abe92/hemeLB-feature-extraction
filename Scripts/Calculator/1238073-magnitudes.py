@@ -14,7 +14,7 @@ import csv
 xyz = np.zeros([0,3]) # Replace '3' with the number of columns in your csv file
 
 # 2
-with open ('csv_file-name') as csvfile:
+with open ('your-csv-file-name') as csvfile:
     file = csv.reader(csvfile)
     
     # 3
