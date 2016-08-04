@@ -11,7 +11,7 @@ import numpy as np
 import csv
 
 # 1
-xyz = np.zeros([0,3]) # Replace '3' with the number of columns in your file
+xyz = np.zeros([0,3]) # Replace '3' with the number of columns in your csv file
 
 # 2
 with open ('csv_file-name') as csvfile:
