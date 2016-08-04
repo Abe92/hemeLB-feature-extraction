@@ -4,15 +4,7 @@ Date created: 03 August 2016
 
 @author      : Aldy Rasyid Abe
 
-@description : (1) Initialize an array with N columns.
-               
-               (2) Read a CSV file from a specific directory.
-                   Store it on a variable.
-               
-               (3) Using for loops, read and store the contents of the file then
-                   put it into a array then stack it in vertical sequence.
-               
-               (4) Calculate the velocity magnitudes
+@description : Velocity magnitudes calculator
 """
 
 import numpy as np
