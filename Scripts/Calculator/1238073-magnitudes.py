@@ -14,7 +14,7 @@ import csv
 xyz = np.zeros([0,3])
 
 # 2
-with open ('D:/Python/In/ID-678528/678528-velocity-vector.txt') as csvfile:
+with open ('csv_file-name') as csvfile:
     file = csv.reader(csvfile)
     
     # 3
