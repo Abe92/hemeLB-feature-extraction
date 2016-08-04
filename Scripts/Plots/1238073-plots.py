@@ -12,7 +12,7 @@ import numpy as np
 import csv
 
 #1
-xy = np.zeros([0,2]) # Replace '2' with the number of your column in your csv file
+xy = np.zeros([0,2]) # Replace '2' with the number of columns in your csv file
 
 #2
 with open ('your_csv_file_name') as csvfile:
