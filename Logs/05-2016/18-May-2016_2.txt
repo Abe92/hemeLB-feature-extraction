@@ -1,0 +1,25 @@
+Wednesday, 18th May 2016
+Logbook
+
+-> Task: Adding more information to project approach
+
+	commencing @ 17.30
+	finished   @ 19.15
+
+--- Approach ---
+
+1. Update the formatting of writing the 'Purpose' by adding a number at the end
+of 'Purpose'; e.g. 'Purpose 1'.
+2. Expand the approach into three 'approaches' so far;
+	a) Literature review concerning CFD use in predicting cerebral aneurysm
+	rupture.
+	b) Investigate the perceptions and attitude towards the currently available
+	tool(s) utilising the CFD in the field of CA including its haemodynamic
+	properties.
+	c) Compare the usage statistics between various haemodynamic properties data
+	and its clinical relevance.
+
+-> Target for tomorrow:
+
+1. Completing the project approach and asked for feedback from Derek
+2. Arranging the Gantt chart requires for the timing of each objectives (?)

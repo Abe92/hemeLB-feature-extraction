@@ -1,0 +1,44 @@
+Wednesday, 18th May 2016
+Logbook
+
+-> Task: Continuing project proposal draft
+
+	commencing @ 10.45
+	finished   @ 12.37
+
+What is accomplished: 'define the project approach'
+
+--- Approach ---
+
+The above objectives will be achieved through the following activities:
+
+->Purpose: Literature review concerning CFD use in predicting cerebral aneurysm 
+rupture.
+->Activities: 
+Conduct a focused literature review specifically concerned about CFD usage in the field of cerebral aneurysm 
+research. A good starting point to gain knowledge of CFD use in cerebral aneurysm research is 
+identified through the American Journal of Neuroradiology. This activity should take no more than 2 weeks.
+->Output:
+Gained an understanding and importance of CFD usage in the CA (cerebral aneurysm) research.
+->Anticipated problem(s):
+The journal(s) in question is not up to date, between in the range of 1990s to early 2000s.
+->Solution(s):
+Filter the journal(s) in question to be in the range of 2009 to 2015 the latest.
+
+->Purpose: Investigate the perceptions and attitude towards the currently available tool(s) utilising the 
+CFD in the field of CA including its haemodynamic properties.
+->Activities:
+Conduct an informal interview with the academia researchers in the cerebral aneurysm research field. 
+The informal interview should take up to 15 minutes. Gathering this beneficial knowledge is aimed to 
+take up to 4 weeks.
+->Output:
+Obtained the haemodynamic properties used in the CA field including gained an understanding of 
+why various haemodynamic properties being consistently shows up in the journal(s).
+->Anticipated problem(s):
+The academia researcher(s) might be unable to attend the informal interview due to various reason.
+->Solution(s):
+Create an open-ended questionnaire specifically aimed to the academia researcher which can be 
+solve in between 10 - 15 minutes. The approximate time is to allow the researcher to include 
+as many as information including their professional and educated view regarding the topic.
+
+Will continue writing after 13.00

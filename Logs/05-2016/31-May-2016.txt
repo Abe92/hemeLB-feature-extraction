@@ -1,0 +1,32 @@
+Tuesday, 31st May 2016
+Logbook
+W2 3JR
+
+-> Task: '30 minutes reading'
+
+	commencing @ 14.00
+	finished   @ 14.36
+
+-- " Hemodynamics of Cerebral Aneurysms " --
+Source  : US National Library of Medicine National Institutes of Health
+Link    : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750901/
+
+PMCID   : PMC2750901
+NIHMSID	: NIHMS106217
+
+Comments:
+
+This journal display a good explanation regarding CA in particular Hemodynamics.
+It manages to describe the formation and growth of CA in 'plain-english'.
+Currently at the page 9 of 24 (PDF).
+
+The purpose of reading this journal is to strengthen my foundation of knowledge
+about the main topic of the MSc project.
+
+
+-> List of literature to read:
+
+Link:
+
+1. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750901/
+2. http://stroke.ahajournals.org/content/35/11/2500

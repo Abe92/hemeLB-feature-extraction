@@ -1,0 +1,27 @@
+Friday, 20th May 2016
+Logbook
+
+-> Task 1: Meeting with Derek and UCL guys
+
+	commencing : @ 11.00 am
+	finished   : @ 13.53 pm
+
+Achieved:
+
+1. Learn about the UCL personel involves in HemeLB (Robin and Sebastian)
+2. Initial discussion with Robin and Sebastian, they would like to have a
+
+	"An indenpendent automated imaging tool where it able to detect and 
+	differentiate the data
+	and
+	produce suitable visualisation based on the type of data."
+
+				OR
+
+	"A plug-in that able to complete what was describe above"
+
+To do:
+
+1. Plan a follow up regarding initial discussion. Think about question(s) to ask.
+2. Continue the Gantt chart, start at around 17.00 pm.
+	

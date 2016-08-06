@@ -1,0 +1,29 @@
+Saturday, 21st May 2016
+Logbook
+F33 27IT
+
+-> Task: Completing the project draft including the Gantt Chart
+
+	commencing @ 11.09 am BST
+	finished   @ 11.47 am BST
+
+	outcome			: 1st attempt of creating Gantt Chart failed
+	identifed problem	: empty stomach, need to eat first
+	
+
+-> Task: Attempting to create Gantt Chart
+
+	commencing @ 12.43 pm BST
+	finished   @ 13.39 pm BST
+
+	outcome	: Manage to describing the general tasks to complete for the 
+			project.
+
+-> Task: Build THE Gantt Chart
+
+	commencing @ 18.33 pm BST
+	finished   @ 20.04 pm BST
+
+	outcome : The complete and FINAL version of the Gantt Chart
+
+
