@@ -1,0 +1,37 @@
+Tuesday, 17th May 2016
+Logbook
+
+
+-> Task: 1. Quick revision for French language class
+
+	commencing @ 11.00
+	finished   @ 11.30
+
+1. Revising about nationality, occupation, and preposition.
+2. Completing the homework
+3. Practise writing the negation of sentence(s) in French
+
+
+-> Task: 2. Attempting to understand how to create project 'Approach'
+
+	commencing @ 11.45
+	finished   @ 12.15
+
+Trying to understand on how to create good project 'Approach' by reading this paper:
+
+source: (http://kmh-lanl.hansonhub.com/pc-26-58-seisler.pdf)
+
+title :		"Proposal Writing: Approaching the Approach"
+				Jeffrey M.Seisler
+
+
+-> Task: 3. Rephrasing small part of the project background
+
+	commencing @ 12.00
+	finished   @ 12.04
+
+From -> 'will produce a software using the requirements collected from the academia
+	researchers'
+
+To   -> 'will attempt to produce a tool using the requirements collected from the academia
+	researchers'

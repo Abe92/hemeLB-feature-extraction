@@ -1,0 +1,121 @@
+Saturday, 14th May 2015
+Logbook
+
+-> Task: Revising Python
+
+commencing @ 16.00
+finished   @ 19.10
+
+------------------------------- Program made ----------------------------------
+
+> hello.py
+def hello():
+    """Print "Hello World" and return None"""
+    print("Hello World")
+
+# main program starts here
+hello()
+
+------------------------------- Program made -----------------------------------
+
+> mathematical_operations.py
+# Mathematical Operation(s)
+
+""" Addition """
+def add ():
+    a = 7 + 3
+    print (a)    
+add()
+
+""" Subtraction """
+def subtraction ():
+    b = 5 - 1
+    print (b)
+subtraction()
+
+""" Multiplication """
+def multiplication ():
+    c = 15 * 4
+    print (c)    
+multiplication()
+
+""" Division """
+def division ():
+    d = 8/3
+    print (d)    
+division()
+
+""" Squaring """
+def squaring ():
+    e = 2 ** 10
+    print(e)
+squaring()
+
+""" Square root """
+def square_root ():
+    f = 8 % 3
+    print(f)
+square_root()
+
+-------------------------------- Program made ---------------------------------
+
+> containers.py
+# Containers
+
+""" Lists """
+def lists ():
+    a = ['red','blue','green','black','white']
+    print(a)
+    print(a[2]) #Indexing - accessing individual objects contained in the list
+    print(a[-1]) #Counting from the end with negative indices
+    print(a[-2]) #Counting from the end with negative indices
+lists()
+
+--------------------------------- Program made ---------------------------------
+
+> containers_slicing.py
+# Containers - slicing
+
+""" Lists - slicing """
+def lists():
+    l = ['red','blue','green','black','white']
+    print(l[2:4]) # Slicing - print start from 2nd items through 3rd (4-1) items
+    print(l[3:]) # Slicing - print last 3 items in the array
+    print(l[:3]) # Slicing - print all except the last 3 items
+    print(l[::2]) # Slicing - print all except the items in the 2nd indices and 4th indices
+lists()
+
+------------------------------- Program made -----------------------------------
+
+> adding_removing_elements.py
+# Append - adding elements
+
+""" Append - adding """
+def append():
+    L = ['red','blue','green','black','white']
+    L.append('pink')
+    print(L)
+append()
+
+# Pop - remove elements
+
+""" Pop - remove and returns the last item """
+def append_1():
+    L1 = ['red','blue','green','black','white']
+    L1.append('pink')
+    print(L1)
+    L1.pop()
+    print(L1)
+append_1()
+
+# Extend - adding and combine list to the already exist list
+
+""" Extend - extend list, in-place """
+def extend():
+    L2 = ['red','blue','green','black','white']
+    L2.extend(['pink','purple'])
+    print(L2) # Print all
+    print(L2[:-2]) # Print all except the last 2 extended items
+    print(L2[2:]) # Print all except the first 2 items
+    print(L2[-2:]) # Only print the last 2 items
+extend()

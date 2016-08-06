@@ -1,0 +1,82 @@
+Monday, 16th May 2016
+Logbook
+
+-> Task: Continuing the MSc dissertation project draft
+
+	commencing @ 11.00
+	finished   @ 12.32
+
+------------------ The role of computational fluid dynamics ----------------
+------------------ in predicting aneurysm rupture risk ---------------------
+
+Source	: 
+
+'Predicting the rupture risk of brain aneurysms using computational
+approaches: a HemeLB validation study'
+
+			Rachel H. Coy
+
+Accessed: 12th May 2016
+
+Computational fluid dynamics (or CFD) has the potential to become a very useful(l)
+tool for analysing cerebral aneurysm rupture risk, and thus provide huge benefits
+for clinical decision making. CFD enables the simulation of blood flow within 
+3D vascular geometries, based upon patient specific data, allowing values 
+such as wall shear stress (WSS) to be calculated and analysed.
+
+// Taken from page 4
+
+However, there has been some criticism aimed at the use of CFD as part of the research
+of aneurysm rupture risk. In particular, the sheer multitude of haemodynamic properties
+being investigated has been postulated to be more confusing than helpful. Furthermore,
+questions have been raised over the accuracy of current simulations and consequently
+their clinical relevance.
+
+This project is aimed to narrowed down these haemodynamce properties to make CFD 
+become a reliable predictor for aneurysm rupture risk. The project collects the
+requirements from clinician abroad (*in Qatar) and will produce a software using
+the clinical requirements collected from the clinician.
+
+* As mentioned in the last meeting on Tuesday, 10th May 2016; the requirements
+will be given to me by July
+
+//
+Tools aimed toward the scientist. Requirement(s) will provided by the clinician 
+from Qatar. Tools should be runable from command line/terminal. //
+
+-> Task: Updating the background of MSc dissertation project
+
+	commencing @ 16.00
+	finished   @ 18.00
+
+-> Task: Pre-write the 'Aims and Objectives' of the project
+
+Aims and Objectives
+
+Aims
+
+"The research in computational fluid dynamics (CFD) investigating the rupture risks
+of cerebral aneurysm is postulated to use sheer multitude haemodynamce properties.
+The literature reveal that questions have been raised over the accuracy of current
+simulations and consequently their clinical relevance.
+
+This research aims to narrow the haemodynamce properties in the field of cerebral
+vasculature CFD. The results will be used to build a novel tool, in the form of 
+software, specifically attuned to this particular field, cerebral vasculature CFD
+based upon the requirements collected from the (academia) researchers of the field."
+
+Objectives
+
+"The above aim will be accomplished by fulfilling the following research objectives:
+
+1. Review the literature concerning the CFD as a predictor of CA rupture risks
+including the results accuracy (?).
+
+2. Investigate the perceptions and attitude towards the currently available tool(s)
+utilising CFD in the field of CA rupture risk including the haemodynamic properties
+data.
+
+3. Compare the usage statistics between various haemodynamic properties data and 
+its clinical relevance.
+
+4. Identify if any improvements or alterations are required towards the tool (?)

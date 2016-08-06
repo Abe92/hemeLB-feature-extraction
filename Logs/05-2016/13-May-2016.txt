@@ -1,0 +1,46 @@
+Friday, 13th May 2015
+Logbook
+
+-> Task: Project proposal draft
+
+commencing @ 10.30 am
+finished   @ 12.30 pm
+
+
+------------------------- Project Background -----------------------------------
+
+1. Described what is cerebral aneurysm
+2. Described the potential use of CFD (Computational Fluid Dynamics) as a tool for
+analysisng cerebral aneurysm, including its potential parameter:
+				"Wall Shear Stress"
+3. Described the shortcoming of the current state data collected (?)
+
+-----------(?) I'm not sure if this is relevant at all with the project------------
+
+What to do next, have a break
+Will continue later.
+
+
+-> Task: Continuation of project proposal draft
+
+commencing @ 17.30
+finished   @ 19.29
+
+-------------------------- Project Background -----------------------------------
+
+A cerebral aneurysm (intracranial or intracerebral aneurysm) is a weak or thin spot
+on blood vessel in the brain that balloons out and fills with blood. The bulging
+aneurysm can put pressure on a nerveor surrounding brain tissue. It may also leak
+or rupture spilling blood into the surround tissue (called a haemorrhage). CA (cerebral aneurysm) can occur anywhere in the brain, but most are
+located along a loop of arteries that run between the underside of the brain and 
+the base of the skull.
+
+Computational fluid dynamics (CFD) has the potential to become a very useful tool
+for analysing cerebral anuerysm rupture risk, and thus provide huge benefit for
+clinical decision making. CFD enables the simulation of blood flow within 3D
+vascular geometries, based upon patient specific data, allowing values such as wall
+shear stress (WSS) to be calculated and analysed.
+
+To do next: investigate further about visualisation result (?)
+
+The goal of the project: visualisation tool for better aneurysm visualisation (?)
