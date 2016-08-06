@@ -1,0 +1,36 @@
+Wednesday, 11th May 2016
+Logbook
+
+ -------------- IPython --------------- 
+
+1. Installing 'Jupyter' using the Anaconda Distribution,
+source: (https://www.continuum.io/downloads)
+
+	commencing @: 10.30 am
+	finished   @: 10.58 am
+	outcome	    : 'succesfull installation'
+	proceed to  : '30 minutes Conda Test Drive'
+
+2. '30 minutes Conda Test Drive',
+source: (http://conda.pydata.org/docs/test-drive.html)
+
+	commencing @: 11.00 am
+	finished   @: 11.39 am
+	outcome     : 1. Completed the 'Managing conda'
+		      2. Completed the 'Managing environments'
+		      3. Completed the 'Managing Python'
+		      4. Completed the 'Managing packages'
+		      5. Completed the 'Removing packages,environments, or conda'
+	proceed to  : 'Let's do some basic scripting for ipython'
+
+3. 'Let's do some basic scripting for ipython'
+source: (http://www.scipy-lectures.org/intro/intro.html#why-python)
+	then go to
+	(http://www.scipy-lectures.org/intro/language/python_language.html)
+
+	commencing @: 11.39 am
+	finished   @: 12.13 pm
+	achieved    : refamiliarise myself with some programming foundation
+	to-do (next): re-refamiliarise again
+	proceed to  : continuing reading Rachel past report
+	

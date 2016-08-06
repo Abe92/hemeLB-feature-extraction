@@ -1,0 +1,15 @@
+Thursday, 12th May 2016
+Logbook
+
+-> Task :
+
+1. Install virtual machine
+2. Install Ubuntu on the VM
+
+commencing @ 15.00 pm
+finished   @ 16.12 pm
+
+3. Testing some hemeXtract command, e.g:
+
+	./hemeXtract --help 			----> shows lists of useful commands
+	./hemeXtract -V (checking version) 	----> hemeXtract 0.0.1

@@ -1,0 +1,161 @@
+Thursday, 12th May 2016
+Logbook
+
+-> Task: Background Reading
+
+
+commencing @ 09.00 am
+finished   @ 10.53 am
+
+
+----------------------- Cerebral Aneurysm ---------------------------
+
+Source	: (http://www.ninds.nih.gov/disorders/cerebral_aneurysm/detail_cerebral_aneurysms.htm)
+Accessed: 12th May 2016
+
+A cerebral aneurysm (a.k.a intracranial or intracerebral aneurysm) is
+a weak or thin spot on a blood vessel in the brain that balloons out
+and fills with blood.
+
+The bulging aneurysm can put pressure on a nerve or surrounding brain
+tissue. It may also leak or rupture, spilling blood into the surrounding
+tissue (called a hemorrhage).
+
+Some cerebral aneurysms, particularly those that are very small, do not
+bleed or cause other problems.
+
+CA (cerebral aneurysm) can occur anywhere in the brain, but most are
+located along a loop of arteries that run between the underside of the brain
+and the base of the skull.
+
+------------------------ Wall Shear Stress ---------------------------
+
+Source	: (http://www.hellenicjcardiol.org/archive/full_text/2005/1/2005_1_9.pdf)
+Accessed: 12th May 2016
+
+In physics, 'stress' is the internal distribution of forces within a
+body that balance and react to the external loads applied to it.
+
+'Strain' is defined as the mechanical deformation of a physical body
+under the action of applied forces. Depending on the direction of the
+applied force there is a different kind of deformation.
+
+'Shear strain' is defined as the deformation of an object in which 
+parallel planes remain parallel but are shifted in a direction parallel
+to themselves, as opposed to normal stress or force, which when applied 
+to an object induces normal (direct) deformation.
+
+For a one-dimensional object, deformation is either lengthening or shortening.
+
+For a two-dimensional object, there are a total of four strain components:
+normal strain along the x or y axis, and shear strain causing distortion of the
+shape along the x or y axis.
+
+The 'haemodynamic conditions' inside blood vessels lead to the development
+of superficial stresses near the vessel walls, which can be divided into two
+categories:
+
+a) 'Circumferential stress' due to pulse pressure variation inside the vessel.
+
+b) 'Shear stress' due to blood flow.
+
+The direction of the shear stress vector is determined by the direction
+of the blood flow velocity vector very close to the vessel wall.
+
+Shear stress is applied by the blood against the vessel wall. On the other 
+hand, the force applied to the blood by the wall is considered as 'friction'
+and has a direction opposite to the blood flow.
+
+'Normal stresses' due to blood pressure are transferred to all vessel 
+wall layers *(intima, media and adventitia).
+
+|* 'Intima' is the inner layer abutting the vessel lumen.
+|  'Adventitia' is the outer layer abutting the perivascular soft tissue.
+|  'Media' is sandwiched between the intima and adventitia.
+|
+|*  source  : (http://radiopaedia.org/articles/histology-of-blood-vessels)
+|   accessed: 12th May 2016
+
+'Shear stress' is applied mainly to the inner layer of the arterial wall
+in contact with the blood, the 'vascular endothelium'.
+
+
+------------------ The role of computational fluid dynamics ----------------
+------------------ in predicting aneurysm rupture risk ---------------------
+
+Source	: 
+
+'Predicting the rupture risk of brain aneurysms using computational
+approaches: a HemeLB validation study'
+
+			Rachel H. Coy
+
+Accessed: 12th May 2016
+
+Computational fluid dynamics (or CFD) has the potential to become a very useful(l)
+tool for analysing cerebral aneurysm rupture risk, and thus provide huge benefits
+for clinical decision making. 
+
+--------------------------- Below taken from page 4 ----------------------------
+
+CFD enables the simulation of blood flow within 3D vascular geometries, 
+based upon patient specific data, allowing values such as 
+wall shear stress (WSS) to be calculated and analysed. A large amount of the
+work published so far in the field cerebral vasculature CFD has been based upon
+studies of small number of vessel geometries. However, to make findings clinically
+useful it will be necessary for scientists to work on much larger clinical 
+datasets. One study successfully incorporated a large number of patients by 
+Cebral et al. However, several shortcomings must also be noted.
+
+------------------------ End of page 4 worthy information ----------------------
+
+------------------------ Below taken from page 5 -------------------------------
+
+Firstly, the use of non-patient specific boundary conditions could well have had
+a significant effect upon the accuracy of the simulations. Secondly, there could
+be potential issues when translating the categorisation method used to a clinical
+setting
+
+------------------------- End of page 5 worthy information ---------------------
+
+Sample size of the extracted parameters seemed to have important roles in the accuracy of the 
+simulation but, 'specific boundary conditions used' is the pivotal factor in terms
+of the simulation accuracy.
+
+However there is some shortcoming, for instance:
+
+'The patient specific boundary conditions' data (?) are not necessarily 
+optimal, because the clinical environment in which the measurements
+are taken is not reflective of the situations normally encountered by patients.
+(Marzo et al)
+
+The majority of imaging techniques involve the patient lying on their back,
+which is not representative of postures adopted throughout the day.
+
+Furthermore, the(y) majority of research involving computational models of
+vasculature has so far used data collected from patients at rest.
+
+It is problematic because 
+!! 'aneurysm rupture is more likely to occur when a patient is not at rest' !!
+
+
+----------------------- Interesting other journal(s) ----------------------------------
+
+Source	: (http://stroke.ahajournals.org/content/47/Suppl_1/A13.short)
+Accessed: 12th May 2016
+
+The only accessible part of the journal is the abstarct. However, it provides 
+an insightful of potential variable of importance. These parametres are
+
+1. Wall Shear Stress,
+2. Shear rate,
+3. Vorticity, and
+4. Viscous dissipation.
+
+There is another parameter that might be useful to take into consideration,
+that is the velocity of the bloodflow itself 'rubbing' with the wall of blood vessel.
+Including the state of the patients, where being active gives more accuracy rather 
+than at the state of resting.
+
+An access to this journal is required to have deeper understanding, but the journal
+itself is currently at the state of 'embargo policies'.
