@@ -1,0 +1,26 @@
+02nd June 2016
+Logbook
+W2 3JR
+
+-> Task: Revising SAS 'Base' Certification Exam
+
+	commencing @ 16.56
+	finished   @ 20.45
+
+Learned:
+
+1. History of SAS
+
+2. Various SAS IDE
+	a. SAS Studio (a web-based SAS IDE run on a server)
+	b. SAS Windowing Environment (a SAS IDE run on a PC)
+
+3. The basic of SAS program including structure of typical program and rule of
+	thumb for naming convention.
+
+4. Accessing data in SAS Libraries including the different of temporary and permanent
+	library.
+
+5. Creating a SAS table from a CSV file.
+
+To do tomorrow: 'continue revising'

@@ -1,0 +1,50 @@
+02nd June 2016
+Logbook
+W2 3JR
+
+-> Task: Reading about how to 'Designing a Survey' Part 1
+
+	commencing @ 10.07 
+	finished   @ 10.45
+	
+Source: 
+
+{http://www.sciencebuddies.org/science-fair-projects/project_ideas/Soc_survey.shtml}
+
+1.1. Key takeaways:
+
+a) Good survey questionnaire, keep it short while ensuring that	
+you capture all of the information that you need.
+
+b) Before begin the design of survey questionnaire, a set of objectives should
+be initially set and list out the information needed/trying to capture. This 
+list of objectives & research goals will serve as a  plan for the survey questionnaire.
+
+c) There are two different types of questions that can be used to collect information.
+Structured or fixed response questions and non-structured or open questions.
+
+This note will first focus on the 'Structured questions'
+
+.> Structured questions are best suited in the following situations:
+	1. When you have a thorough understanding of the responses so that you
+	can appropriately develop the answer choices.
+	2. When you are not trying to capture new ideas or thoughts from the
+	respondent.
+
+1.1.1.a) Do not create an overlap when defining the range.
+	E.g. '0 to 1 hour' and '1 to 2 hours' is a good example rather than
+	'0 to 1 hour' and '2 to 3 hour'.
+
+1.1.1.b) 'Consistency' is very important in writing list of responses.
+
+1.1.1.c) To capture varying degrees of person's emotion about a subject, you can
+use 'Rating Question'. Keep in mind that 'Rating Question' is useful to get respondents
+opinion about something.
+
+1.1.1.d) A 'Ranking Question' is used to ask respondents how they feel about something
+by comparing it to other items in a list. The disadvantage to a 'Ranking Question' is
+that if the respondent feels the same about two or more items, they are still forced to
+sort them into a ranking. The result of a ranking basically tell you which is the
+most preferred and which is the least preferred item on the list, but you do not
+know from a ranking if the respondent likes or dislikes any or all of the items on
+the list.

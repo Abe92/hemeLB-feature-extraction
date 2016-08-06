@@ -1,0 +1,36 @@
+02nd June 2016
+Logbook
+W2 3JR
+
+-> Task: Reading about how to 'Designing a Survey' Part 2
+
+	commencing @ 10.59
+	finished   @ 11.28
+
+Source:
+
+{http://www.sciencebuddies.org/science-fair-projects/project_ideas/Soc_survey.shtml}
+
+This note is focus on the 'Unstructured questions'
+
+.> Unstructure questions, are questions where there is no list of answer choices
+from which to choose. Respondents are simply asked to write their response to a
+question.
+
+.> Unstructured questions is best use when you are exploring new ideas and you
+don't really know what to expect from respondents. In some situations, you may
+have a partial list of answer choices, but you may still have some doubts or 
+uncertainty about other possible responses.
+
+--> Key takeaways:
+
+1) Open-ended questions let you get more insight into the respondents'thoughts and
+ideas about a subject. 
+
+2) Open-ended questions are useful when you are trying to capture new ideas or
+information for which you have no basis to develop an all inclusive set of
+structured responses.
+
+3) The disadvantages to using open-ended questions is that it can be much more time
+consuming and difficult to analyse the data. In general you should try to minimise
+the number of open-ended questions in your survey questionnaire.
