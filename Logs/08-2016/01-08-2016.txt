@@ -1,0 +1,55 @@
+1st August 2016
+Log
+W2 3JR
+
+-> Task: Create the building blocks for Machine Learning
+
+	commencing @ 10.00 am BST
+	finished   @ 12.41 pm BST
+	
+achieved: 
+	(1) Read, practise and understand the code
+	    template to perform machine learning for
+	    logistic regression
+	    
+	(2) Build the basic foundation of the code
+	
+to-do now:
+	(1) Lunch break + napping
+	
+to-do next:
+	(1) Continue writing the methodologies chapter
+	(2) Calculate the velocity magnitude of the
+	    hemeLB output file. The files that need
+	    to be calculated is:
+	    - hemeLB_train.csv
+	    - hemeLB_test.csv
+	    
+
+-> Task: Finish writing the methodologies chapter
+
+	commencing @ ~14.30 pm BST
+	finished   @ 18.32 pm BST
+	
+achieved: 	
+	(1) Chapter 2 (Methodologies) is complete
+	
+cancelled:
+	(1)Calculate the velocity magnitude of the
+	    hemeLB output file. The files that need
+	    to be calculated is:
+	    - hemeLB_train.csv
+	    - hemeLB_test.csv
+	    
+to-do next: 
+	(1) Tomorrow the cancelled objective
+	    should be completed
+	(2) Determine my own classification
+	    for whether it is
+	    - Bulging (1)
+	    - Not bulging (0)
+	    from exploring the plots of the following:
+	    - Pressure
+	    - Magnitude
+	    - Step (optionals)
+	    
