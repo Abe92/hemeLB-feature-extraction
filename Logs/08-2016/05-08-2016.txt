@@ -1,0 +1,45 @@
+05th August 2016
+Log
+W2 3JR
+
+-> To do: Create the statistical output
+	  for the following files:
+	  
+	  (1) planeOutTopSecond [complete]
+	  (2) planeOutLowEnd    [complete]
+	  (3) planeOutLowMid    [complete]
+	  (4) planeOut          [complete]
+	  (5) plane49           [complete]
+	  (6) plane54           [complete]
+	  (7) plane57           [complete]
+	  
+	  * Type 'complete' in the square bracket []
+	    after finished with the task
+	    
+	   commencing @ 10.20 am BST
+	   finished   @ 10.26 am BST
+	   
+-> To do: Convert the statistical output
+	  of the files to csv/excel:
+	  
+	  (1) planeOutTopSecond [complete]
+	  (2) planeOutLowEnd	[complete]
+	  (3) planeOutLowMid	[complete]
+	  (4) planeOut		[complete]
+	  (5) plane49		[complete]
+	  (6) plane54		[complete]
+	  (7) plane57		[complete]
+	  
+	  commencing @ 11.00 am BST
+	  finished   @ 11.52 am BST
+	  
+-> To do: Plot the timesteps against magnitudes
+	  for the following
+	  
+	  (1) planeOutTopFirst [complete]
+	  
+	  commencing @ 17.00 pm BST
+	  finished   @ 18.50 pm BST
+	  
+	  *It took 1 hour due to the attack 
+	  of dizziness and eye fatigue
