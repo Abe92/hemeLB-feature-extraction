@@ -1,0 +1,28 @@
+16th June 2016
+Logbook
+W2 3JR
+
+-> Task: Updating online questionnaire
+
+	commencing @ 19.40
+	finished   @ 19.44
+
+	generating these questions:
+
+1. In the field of Neuroscience, what is the visualization tool model(s) do you currently
+use to study Cerebral Vasculature?
+a. Open-source software model (free software)
+b. Proprietary software model (paid software)
+c. Mixed
+
+2. What is the name of the visualization tool?
+(if your answer is 'mixed', please type both name including its models;
+e.g. x - open-source)
+
+6. Which one of these roles best describe your involvement in the field of Neuroscience
+(Cerebral Vasculature)?
+a. Clinician
+b. Researcher (software engineer)
+c. Other (please specify)
+
+	thoughts on the progress: really slow, should increase the 'intensity'

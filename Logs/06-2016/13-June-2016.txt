@@ -1,0 +1,11 @@
+13th June 2016
+Logbook
+W2 3JR
+
+-> Task: Create the online version of Survey Monkey
+
+	commencing @ 20.30 pm BST
+	finished   @ 20.55 pm BST
+
+	outcome: Survey Monkey online questionnaire live and online, however 
+		 the current state is still in the draft version of it
