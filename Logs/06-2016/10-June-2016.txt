@@ -1,0 +1,15 @@
+10th June 2016
+Logbook
+W2 3JR
+
+-> Task: Questionnaire mock questions
+
+	commencing @ 18.30
+	finished   @ 19.51
+
+	outcome: - 2 options based question
+		 - 1 open-ended question
+
+	to-do: refining the question,
+
+		address the following: - the current tools (open source or commercial)
