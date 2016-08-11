@@ -11,34 +11,26 @@ import pandas as pd
 import numpy as np
 
 # Pandas configuration
-pd.set_option('display.height', 46198)
-pd.set_option('display.max_rows', 46198) 
+pd.set_option('display.height', 'height_value')
+pd.set_option('display.max_rows', 'rows_value') 
 
 # Source file
-df = pd.read_csv('D:/Dissertation for MSc 2016-17/hemeXtract - MSc/xtr to txt/planeOutTopFirst/planeOutTopFirst.csv')
+df = pd.read_csv('csv-file-name')
 
 # Column names
-time_step = df['step']
+column_name1 = df['column_name1']
 
-gridx = df['grid_x']
-gridy = df['grid_y']
-gridz = df['grid_z']
-
-velocity0 = df['velocity(0)']
-velocity1 = df['velocity(1)']
-velocity2 = df['velocity(2)']
-
-magnitude = df['magnitudes']
-
-pressure = df['pressure']
+column_name2 = df['column_name2']
+column_name3 = df['column_name3']
+column_name4 = df['column_name4']
 
 # Converting raw time-step into seconds
-seconds = (time_step*4.00E-06)
-seconds = str(seconds)
+seconds = (column_name1*4.00E-06)
+seconds = str(seconds)          # optional, but useful if you want to save the output to text file
 
 # Calculating magnitudes
-magnitudes = np.sqrt(velocity0*velocity0+velocity1*velocity1+velocity2*velocity2)
-magnitudes = str(magnitudes)
+magnitudes = np.sqrt(column_name2*column_name2+column_name3*column_name3+column_name4*column_name4)
+magnitudes = str(magnitudes)    # optional, but useful if you want to save the output to text file
 
 # Print the results
 print(seconds)
