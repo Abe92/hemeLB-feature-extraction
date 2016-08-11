@@ -43,12 +43,12 @@ magnitudes = str(magnitudes)
 print(seconds)
 print(magnitudes)
 
-## Seconds
+# Seconds
 #with open("D:\\Python\\In\\csv\\time-steps.txt", 'w') as time:    
 #        for item in seconds:
 #            time.write(seconds)
 #
-## Magnitudes
+# Magnitudes
 #with open("D:\\Python\\In\\csv\\magnitudes.txt", 'w') as magnitude:    
 #        for item in magnitudes:
 #            magnitude.write(magnitudes)
