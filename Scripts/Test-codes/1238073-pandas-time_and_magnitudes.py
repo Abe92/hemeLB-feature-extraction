@@ -10,6 +10,7 @@ Date created : 11 August 2016
 import pandas as pd
 import numpy as np
 
+# Pandas configuration
 pd.set_option('display.height', 46198)
 pd.set_option('display.max_rows', 46198) 
 
