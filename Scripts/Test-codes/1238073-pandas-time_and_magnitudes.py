@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Date created : 11 August 2016
-
 @author      : Aldy Rasyid Abe
-
 @description : Multi-purpose script with pandas
 """
 
