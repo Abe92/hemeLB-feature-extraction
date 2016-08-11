@@ -13,37 +13,33 @@ import matplotlib.pyplot as plt
 #pd.set_option('display.max_rows', 46198)
 
 ## Source file
-df = pd.read_csv('D:/Dissertation for MSc 2016-17/1238073 - Final Report/Data/experiment/planeOutTopFirst.csv')
+df = pd.read_csv('csv-file-name')
 
 ## Column names
-time_step = df['step']
+column_name1 = df['column_name']
 
-gridx = df['grid_x']
-gridy = df['grid_y']
-gridz = df['grid_z']
+column_name2 = df['column_name']
+column_name3 = df['column_name']
+column_name4 = df['column_name']
 
-velocity0 = df['velocity(0)']
-velocity1 = df['velocity(1)']
-velocity2 = df['velocity(2)']
+column_name5 = df['column_name']
 
-magnitude = df['magnitudes']
-
-pressure = df['pressure']
+column_name6 = df['column_name']
 
 ## Plotting
 #
-# Regular plots - time_steps against magnitudes
-plt.plot(time_step, pressure, label='lattice-Boltzmann simulation', color='#0066cc')
-plt.xlabel('time-steps (s)')
-plt.ylabel('pressure (Pa)')
-plt.title('hemeLB \n source: planeOutTopFirst.xtr')
+# Regular plots
+plt.plot(column_name1, column_name2, label='plot-label', color='#0066cc')
+plt.xlabel('x_axes-label')
+plt.ylabel('y_axes-label')
+plt.title('plot-title')
 plt.legend()
 plt.show()
 
-# Scatter plot - time_steps against magnitudes
-plt.scatter(magnitude, pressure, label='lattice-Boltzmann simulation', color='#0066cc')
-plt.xlabel('magnitudes (m/s)')
-plt.ylabel('pressure (Pa)')
-plt.title('hemeLB \n source: planeOutTopFirst.xtr')
+# Scatter plot
+plt.scatter(column_name3, column_name4, label='plot-label', color='#0066cc')
+plt.xlabel('x_axes-label')
+plt.ylabel('y_axes-label')
+plt.title('plot-title')
 plt.legend()
 plt.show()
