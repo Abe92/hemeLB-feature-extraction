@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Date created: 03 August 2016
-
 @author      : Aldy Rasyid Abe
-
 @description : Velocity magnitudes calculator
 """
 
