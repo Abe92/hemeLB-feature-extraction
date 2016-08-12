@@ -9,8 +9,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ## Pandas configuration - optional
-#pd.set_option('display.height', 46198)
-#pd.set_option('display.max_rows', 46198)
+#pd.set_option('display.height', 46000)
+#pd.set_option('display.max_rows', 46000)
 
 ## Source file
 df = pd.read_csv('csv-file-name')
