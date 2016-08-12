@@ -1,3 +1,3 @@
 # Calculator
 
-Python script(s) to perform mathematics problem is (are) stored here.
+Python scripts to perform mathematical problem related to hemeLB raw file are stored here.
