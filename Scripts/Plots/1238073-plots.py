@@ -13,7 +13,7 @@ import csv
 xy = np.zeros([0,2]) # Replace '2' with the number of columns in your csv file
 
 #2
-with open ('your-csv-file-name') as csvfile:
+with open ('hemeLB-csv-file-name') as csvfile:
     file = csv.reader(csvfile)
     
     #3
