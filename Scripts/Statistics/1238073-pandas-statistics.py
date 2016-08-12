@@ -12,7 +12,7 @@ import pandas as pd
 #pd.set_option('display.max_rows', 46198)
 
 ## Source file
-df = pd.read_csv('D:/Dissertation for MSc 2016-17/1238073 - Final Report/Data/experiment/planeOutTopFirst.csv')
+df = pd.read_csv('hemeLB-csv-file-name')
 
 ## Column names
 time_step = df['step']
