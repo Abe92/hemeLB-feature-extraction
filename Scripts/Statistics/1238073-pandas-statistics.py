@@ -8,8 +8,8 @@ Date created : 12 August 2016
 import pandas as pd
 
 ## Pandas configuration
-#pd.set_option('display.height', 46198)
-#pd.set_option('display.max_rows', 46198)
+#pd.set_option('display.height', 46000)
+#pd.set_option('display.max_rows', 46000)
 
 ## Source file
 df = pd.read_csv('hemeLB-csv-file-name')
