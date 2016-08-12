@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Date created : 04 August 2016
-
 @author      : Aldy Rasyid Abe
-
 @description : hemeLB raw file time steps conversion
 """
 
