@@ -1,3 +1,3 @@
 # Statistics
 
-Python scripts for statistics are stored here
+Python script(s) to perform statistical operation
