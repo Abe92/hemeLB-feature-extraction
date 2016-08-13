@@ -31,6 +31,11 @@ pressure = df['pressure']
 
 ## Descriptive statistics
 
+# All columns:
+all_summary = df.describe(percentiles=[.05, .25, .75, .95])
+print(all_summary)
+
+# For specific columns:
 # Time-steps
 time_summary = time_step.describe(percentiles=[.05, .25, .75, .95])
 print("Time-steps","\n",time_summary)
@@ -53,4 +58,4 @@ print("Magnitudes","\n",magnitude_summary)
 
 # Pressure
 pressure_summary = pressure.describe(percentiles=[.05, .25, .75, .95])
-print("Pressure","\n",pressure_summary)
+print("P
