@@ -1,0 +1,21 @@
+11th August 2016
+Log
+W2 3JR
+
+-> Task: Python script
+
+	commencing @ 10.00 am BST
+	finished   @ 12.30 pm BST
+
+   # What I did: (1) The data have 46k rows, so
+		     library used in script need to be updated
+		 (2) Used pandas library as the
+		     base of the code
+		     
+-> Task: Updating file planeOutTopFirst.xtr
+
+	commencing @ 14.00 pm BST
+	finished   @ ~15.00 pm BST
+	
+   # What I did: (1) 'Copy' the output from Python
+   		     script (utilising pandas)

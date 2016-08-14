@@ -1,0 +1,14 @@
+08th August 2016
+Log
+W2 3JR
+
+-> Task: Formulating project implementation
+
+	commencing @ ~10.30 am BST
+	finished   @ 11.47 am BST
+	
+what I did:
+	(1) Initial release of project
+	    implementation
+	(2) Some definition
+	(3) Basic of feature extraction
