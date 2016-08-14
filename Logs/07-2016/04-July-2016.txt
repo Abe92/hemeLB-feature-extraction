@@ -1,0 +1,27 @@
+4th July 2016
+Logbook
+W2 3JR
+
+-> Task: converting the 'xtr file'
+
+	commencing @ ~11.30 am BST
+	finished   @ 12.58 am BST
+	
+What I did: 
+
+	I already converted the xtr file to txt file using the HemeXtract.
+	There were some abnormality when viewing the file using wordpad.
+	I 'fixed' it and convert that file into a CSV file.
+	However, there are some formatting need to be done to fix some
+	of the number shown in the column.
+	
+	Hopefully later in the evening I can do a lot better than this!
+	
+What to do next:
+
+	(1) Fix the abnormal formatting of the number.
+	(2) Practice the Python!!!!!!!!
+	
+Tool(s) used:
+
+	Only using MS Excel at this stage.
