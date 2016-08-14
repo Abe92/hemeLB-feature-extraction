@@ -1,0 +1,21 @@
+27th July 2016
+Logbook
+W2 3JR
+
+-> Task: Re-defining my own methods
+
+	commencing @ ~14.41 pm BST
+	finished   @ 15.00 pm BST
+	
+	re-commencing @ 17.00 pm BST
+	finished      @ 18.59 pm BST
+	
+-> What I did:
+
+	(1) The original suggestion is focused on a
+	specific steps. Pick one grid point (x y z)
+	
+	(2) What I propose is to check the from 
+	'high-level view'. I'll include all of the steps/IDs
+	available and take the average of pressure from all
+	of the steps and IDs.

@@ -1,0 +1,14 @@
+21st July 2016
+Logbook
+W2 3JR
+
+-> Task: Continuing chapter 2 (Methodology)
+
+	commencing @ ~13.50 pm BST
+	finished   @ 15.30 pm BST
+	
+what I did:
+
+	(1) Write sub-chapter 2.1 (Data acquisition)
+		- Describing how I get the data
+		- Describing how I make the data 'usable'

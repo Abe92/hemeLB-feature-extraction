@@ -1,0 +1,12 @@
+15th July 2016
+Logbook
+W2 3JR
+
+-> Task: Refining chapter 1
+
+	commencing @ 10.20 am BST
+	finished   @ 12.46 pm BST
+	
+what I did:
+	(1) Embed the content feature extraction into
+	introduction

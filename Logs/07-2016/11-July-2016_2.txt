@@ -1,0 +1,14 @@
+11th July 2016
+Logbook
+W2 3JR
+
+-> Task: Installing pyqtgraph
+
+	commencing @ 17.15 pm BST
+	finished   @ 17.22 pm BST
+	
+what I did:
+
+	(1) I 'installed' the pyqtgraph to my machine
+	(2) This pyqtgraph is *some advance plotting 'package'
+	*At least that is my understanding..

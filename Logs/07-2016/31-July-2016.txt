@@ -1,0 +1,21 @@
+31st July 2016
+Log
+W2 3JR
+
+-> Identifying type of analysis
+
+	commencing @ 11.15 am BST
+	finished   @ ~12.15
+	
+
+What I did: 
+	   (1) With the given time, focusing only on a 
+	       specific step/ID sounds reasonable to do.
+
+	   (2) Given the data that I have, regression
+	       could be use to help me in 'prediction' (?)
+	       
+	   (3) Now, how should one decide the training and
+	   	testing data?
+		
+	    

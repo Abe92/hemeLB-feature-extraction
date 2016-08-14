@@ -1,0 +1,43 @@
+25th July 2016
+Logbook
+W2 3JR
+
+-> Task: Continue working on project
+
+	commencing @ 10.28 am BST
+	finished   @ ~12.15 pm BST
+	
+-> What I did:
+
+	(1) Continue an extensive research about
+	pattern recognition:
+		- Definition
+		- Types
+		- Algorithm
+		- Examples of implementation
+		
+	(2) Formulating question for meeting
+	
+		with: Derek Groen
+		date: 26th July 2016
+		time: 10.30 am BST
+		
+		about:
+		
+		(-) The hemeLB xtr file description
+			Need this information so I can 
+			include it on my report
+			
+		(-) Implementing Pythagorean theorem
+			for the velocity columns in the
+			hemeLB xtr file
+			
+		(-) Reading the python script called
+			Fit2DPlaneToPointCloud.py
+			
+			-- I'm guessing it's for my
+			dataset, but I'd like to know
+			how to use it
+	
+	
+	

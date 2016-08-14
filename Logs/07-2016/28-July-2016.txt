@@ -1,0 +1,14 @@
+28th July 2016
+Logbook
+W2 3JR
+
+-> Task: Data preparation and Plots
+
+	commencing @ 10.45 am BST
+	finished   @ 15.01 pm BST
+	
+what I did:
+
+	(1) Prepare the data requires for plot
+	
+	(2) Plot the data using Python
