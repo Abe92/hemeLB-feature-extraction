@@ -7,15 +7,12 @@ W2 3JR
 	commencing @ 10.00 am BST
 	finished   @ 12.30 pm BST
 
-   # What I did: (1) The data have 46k rows, so
-		     library used in script need to be updated
-		 (2) Used pandas library as the
-		     base of the code
+   # What I did: (1) The data have 46k rows, so library used in script need to be updated
+		 (2) Used pandas library as the base of the code to 'easily' read the file
 		     
 -> Task: Updating file planeOutTopFirst.xtr
 
 	commencing @ 14.00 pm BST
 	finished   @ ~15.00 pm BST
 	
-   # What I did: (1) 'Copy' the output from Python
-   		     script (utilising pandas)
+   # What I did: (1) 'Copy' the output into Python using script that utilising pandas
