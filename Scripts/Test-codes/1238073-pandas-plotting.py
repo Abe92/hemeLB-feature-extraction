@@ -16,20 +16,20 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('csv-file-name')
 
 ## Column names
-column_name1 = df['column_name']
+column_name0 = df['column_name']
 
+column_name1 = df['column_name']
 column_name2 = df['column_name']
 column_name3 = df['column_name']
+
 column_name4 = df['column_name']
 
 column_name5 = df['column_name']
 
-column_name6 = df['column_name']
-
 ## Plotting
 #
 # Regular plots
-plt.plot(column_name1, column_name2, label='plot-label', color='#0066cc')
+plt.plot(column_name0, column_name1, label='plot-label', color='#0066cc')
 plt.xlabel('x_axes-label')
 plt.ylabel('y_axes-label')
 plt.title('plot-title')
@@ -38,10 +38,25 @@ plt.legend()
 plt.show()
 
 # Scatter plot
-plt.scatter(column_name3, column_name4, label='plot-label', color='#0066cc')
+plt.scatter(column_name2, column_name3, label='plot-label', color='#0066cc')
 plt.xlabel('x_axes-label')
 plt.ylabel('y_axes-label')
 plt.title('plot-title')
 plt.grid(True)
 plt.legend()
+plt.show()
+
+# Historgram
+plt.hist(column_name4,  color='#0066cc')
+plt.xlabel('x_axes-label')
+plt.ylabel('y_axes-label')
+plt.title('')
+plt.grid(True)
+plt.show()
+
+# Boxplot
+data = [column_name5, column_name0]
+plt.boxplot(data)
+plt.xticks([1,2], ['x1-label', 'x2-label'])
+plt.grid(True)
 plt.show()
