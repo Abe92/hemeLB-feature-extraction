@@ -12,7 +12,8 @@ import matplotlib.pyplot as plt
 """
 - Requirements: 
 (1) The latest Python (the program was written in 3.0)
-(2) hemeLB text file acquired from hemeXtract
+(2) hemeXtract 
+(3) hemeLB text file acquired from hemeXtract
 
 -The program utilising the Pandas library.
 
