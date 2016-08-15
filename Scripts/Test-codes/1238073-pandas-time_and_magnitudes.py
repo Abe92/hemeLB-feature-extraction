@@ -8,10 +8,6 @@ Date created : 11 August 2016
 import pandas as pd
 import numpy as np
 
-# Pandas configuration
-pd.set_option('display.height', 'height_value')   
-pd.set_option('display.max_rows', 'rows_value')   # 'rows_value' should be adjusted to the number of rows from the csv file
-
 # Source file
 df = pd.read_csv('csv-file-name')
 
