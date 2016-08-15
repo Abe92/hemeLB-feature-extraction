@@ -24,8 +24,8 @@ column_name4 = df['column_name4']
 
 # Converting raw time-step into seconds
 seconds = (column_name1*4.00E-06)
-seconds.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a')
+seconds.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a')     # save the conversion of time to file
 
 # Calculating magnitudes
 magnitudes = np.sqrt(column_name2*column_name2+column_name3*column_name3+column_name4*column_name4)
-magnitudes.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a')
+magnitudes.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a')  # save the calculation of magnitudes to file
