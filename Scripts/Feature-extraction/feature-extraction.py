@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 
 """
 - Requirements: 
-(1) The latest Python (the program was written in 3.0)
-(2) hemeXtract 
-(3) hemeLB text file acquired from hemeXtract
+(1) The latest Python (2.7 or 3.x)
+(2) hemeLB xtr file
+(3) hemeXtract --------------------------> You need this to convert the xtr file into txt file
 
 -The program utilising the Pandas library.
 
