@@ -1,0 +1,10 @@
+15th August 2016
+Log
+W2 3JR
+
+-> Task: Fixing code
+
+	commencing @ ~21.30 pm BST
+	finished   @ ~22.15 pm BST
+	
+what I did: Update the code for writing the output
