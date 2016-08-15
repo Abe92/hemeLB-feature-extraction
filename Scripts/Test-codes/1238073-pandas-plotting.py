@@ -46,7 +46,7 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
-# Historgram
+# Historgram - optional
 plt.hist(column_name4,  color='#0066cc')
 plt.xlabel('x_axes-label')
 plt.ylabel('y_axes-label')
@@ -54,7 +54,7 @@ plt.title('')
 plt.grid(True)
 plt.show()
 
-# Boxplot
+# Boxplot - optional
 data = [column_name5, column_name0]
 plt.boxplot(data)
 plt.xticks([1,2], ['x1-label', 'x2-label'])
