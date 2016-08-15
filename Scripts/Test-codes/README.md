@@ -10,4 +10,5 @@ Notes:
 Update: 
 
 (1) The Python script calculator to calculate __magnitudes__ and __time-steps__ then store the _output_ to text file is fix. <br/>
-    It is now work perfectly. Solved after utilising the Pandas built in.
+    It is now work perfectly. Solved after utilising the Pandas built in. (Aldy Abe - 15th August 2016) <br/>
+    Fixed way ahead of the original schedule.
