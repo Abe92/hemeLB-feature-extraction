@@ -24,22 +24,8 @@ column_name4 = df['column_name4']
 
 # Converting raw time-step into seconds
 seconds = (column_name1*4.00E-06)
-seconds = str(seconds)          # optional, but useful if you want to save the output to text file
+seconds.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a')
 
 # Calculating magnitudes
 magnitudes = np.sqrt(column_name2*column_name2+column_name3*column_name3+column_name4*column_name4)
-magnitudes = str(magnitudes)    # optional, but useful if you want to save the output to text file
-
-# Print the results
-print(seconds)
-print(magnitudes)
-
-# Save the output to text file
-#with open("D:\\Python\\In\\csv\\time-steps.txt", 'w') as time:             # Known issues:
-#        for item in seconds:                                               # (1) It does save all the information from the calculator code.
-#            time.write(seconds)                                            # However, the current state doesn't have some 'boundaries'
-#                                                                           # to tell the code when to stop writing the calculation.
-# Magnitudes                                                                #
-#with open("D:\\Python\\In\\csv\\magnitudes.txt", 'w') as magnitude:        # 
-#        for item in magnitudes:                                            # 
-#            magnitude.write(magnitudes)                                    #
+magnitudes.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a')
