@@ -56,6 +56,13 @@ seconds.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a') 
 magnitudes = np.sqrt(velocity0*velocity0 + velocity1*velocity1 + velocity2*velocity2)
 magnitudes.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a') # save the calculation of magnitudes to file
 
+## Descriptive statistics
+all_columns = df.describe(percentiles=[.05, .25, .75, .95])
+all_columns.to_csv(r'file-output-name', sep=' ', mode='a')
+"""
+Don't forget to add some comments here to describe the output of the file! --- 16th August 2016 @ 12:32 pm BST
+"""
+
 ## Plotting
 # (1) Regular plot
 plt.plot('column-name1', 'column-name2', label='regular-plot-label', color='#0066cc')
