@@ -47,6 +47,14 @@ magnitude = df['magnitudes']  # I added this column manually after converted
                               # the file into CSV from text file
 pressure = df['pressure']
 
+# Dimensions of data
+dimensions_of_data = df.shape
+print(dimensions_of_data)          # Output ('number_of_rows', 'number_of_columns')
+
+# Each attribute/column data type
+datatype = df.dtypes
+print(datatype)                    # Output: (column_name      datatype)
+
 ## Calculator
 # (1) Converting the value of time from column step into seconds
 seconds = (time_step*4.00E-06)
