@@ -89,3 +89,7 @@ plt.title('regular-plot-title')
 plt.grid(True)
 plt.legend()
 plt.show()
+
+#  Correlation between attributes
+pearson_correlation = df.corr(method='pearson')
+pearson_correlation.to_csv(r'D:/Python/In/csv/pearson_correlation.txt', sep=' ', mode='a')
