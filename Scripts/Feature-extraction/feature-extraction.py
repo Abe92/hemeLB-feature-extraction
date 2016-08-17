@@ -56,6 +56,11 @@ datatype = df.dtypes
 print(datatype)                    # Output: (column_name      datatype)
 
 ## Calculator
+
+"""
+      The result of this calculator is saved into separate file then I manually edit it into the source file.
+                  The edit here is both replacing and appending the result of the calculator..
+"""
 # (1) Converting the value of time from column step into seconds
 seconds = (time_step*4.00E-06)
 seconds.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a')    # save the conversion of time to file
@@ -63,11 +68,13 @@ seconds.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a') 
 # (2) Finding the magnitudes of the velocity vectors
 magnitudes = np.sqrt(velocity0*velocity0 + velocity1*velocity1 + velocity2*velocity2)
 magnitudes.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a') # save the calculation of magnitudes to file
+"""
+                                End of the calculators code 
+"""
 
 """
                   Choose one these methods to get the descriptive statistics
 """
-
 ## Descriptive statistics
 desc_statistics_all = df.describe(percentiles=[.05, .25, .75, .95])
 desc_statistics_all.to_csv(r'file-output-name', sep=' ', mode='a')
@@ -75,7 +82,6 @@ desc_statistics_all.to_csv(r'file-output-name', sep=' ', mode='a')
 ## Descriptive statistics group by column
 desc_statistics_by_column = df.groupby('column-name').describe(percentiles=[.05, .25, .75, .95])
 desc_statistics_by_column.to_csv(r'file-output-name', sep=' ', mode='a')
-
 """
                   End of the possible methods to get the descriptive statistics
 """
