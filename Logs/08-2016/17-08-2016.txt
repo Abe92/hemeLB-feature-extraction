@@ -1,0 +1,16 @@
+17th August 2016
+Log
+W2 3JR
+
+-> Task: Updating code
+
+	commencing @ ~13.45 pm BST
+	finished   @ 14.33 pm BST
+	
+What I did: 
+	
+	(1) Add more statistical operation such as
+		- Pearson correlation
+		- Skewness
+	(2) Include another alternative of descriptive statistics,
+	    that is with group by one of the available columns.
