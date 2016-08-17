@@ -69,7 +69,7 @@ desc_statistics_all = df.describe(percentiles=[.05, .25, .75, .95])
 desc_statistics_all.to_csv(r'file-output-name', sep=' ', mode='a')
 
 ## Descriptive statistics group by column
-desc_statistics_by_column = df.groupby(time_step).describe(percentiles=[.05, .25, .75, .95])
+desc_statistics_by_column = df.groupby('column-name').describe(percentiles=[.05, .25, .75, .95])
 desc_statistics_by_column.to_csv(r'file-output-name', sep=' ', mode='a')
 
 ## Plotting
