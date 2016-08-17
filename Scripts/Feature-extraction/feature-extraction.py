@@ -65,11 +65,12 @@ magnitudes = np.sqrt(velocity0*velocity0 + velocity1*velocity1 + velocity2*veloc
 magnitudes.to_csv(r'file-output-name', header=None, index=None, sep=',', mode='a') # save the calculation of magnitudes to file
 
 ## Descriptive statistics
-all_columns = df.describe(percentiles=[.05, .25, .75, .95])
-all_columns.to_csv(r'file-output-name', sep=' ', mode='a')
-"""
-Don't forget to add some comments here to describe the output of the file! --- 16th August 2016 @ 12:32 pm BST
-"""
+desc_statistics_all = df.describe(percentiles=[.05, .25, .75, .95])
+desc_statistics_all.to_csv(r'file-output-name', sep=' ', mode='a')
+
+## Descriptive statistics group by column
+desc_statistics_by_column = df.groupby(time_step).describe(percentiles=[.05, .25, .75, .95])
+desc_statistics_by_column.to_csv(r'file-output-name', sep=' ', mode='a')
 
 ## Plotting
 # (1) Regular plot
