@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 - Requirements: 
 (1) The latest Python (2.7 or 3.x)
 (2) hemeLB xtr file
-(3) hemeXtract --------------------------> You need this to convert the xtr file into txt file
+(3) hemeXtract --------------------------> You need this to convert the xtr file into flat file
 
 -The program utilising the Pandas library.
 
