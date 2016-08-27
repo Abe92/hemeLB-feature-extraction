@@ -10,7 +10,7 @@ import numpy as np
 #import matplotlib.pyplot as plt
 
 ## Source file
-df = pd.read_csv('hemeLB-flat-file_name')
+df = pd.read_csv('hemeLB-flat_file_name')
 
 ## List of the original column names from the flat file
 step = df['step']
