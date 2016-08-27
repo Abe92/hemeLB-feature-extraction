@@ -13,4 +13,10 @@ Note(s):
 
 __27th August 2016__ <br/>
 The current code is not yet completed <br/>
-Expected finish date on _6th September 2016_
+Expected finish date on _6th September 2016_ <br/>
+
+# UPDATE(s) <br/>
+The current code (__1238073-MAIN.py__) have been switched to only perform the followings: <br/>
+(1) Convert the dimensionless __step__ into __time-step__ with seconds as its unit. <br/>
+(2) Perform the calculation of __magnitudes__ from the available __velocities vector__ in the data. <br/>
+(3) Create a __new flat file__ containings all of the modifications.
