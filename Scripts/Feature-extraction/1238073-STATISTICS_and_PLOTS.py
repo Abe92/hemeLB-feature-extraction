@@ -23,7 +23,7 @@ pressure = df['pressure']
 magnitudes = df['magnitudes']
 
 """
-                STATISTICS RELATED CODES
+                      STATISTICS
 """
 ## Dimensions of data
 dimensions_of_data = df.shape
@@ -46,7 +46,7 @@ skewness = df.skew()
 skewness.to_csv(r'path/to/file.csv', sep=' ', mode='a')
 
 """
-                PLOT CODES to make FIGURES
+                    PLOTS
 """
 ## Simple plots
 plt.plot('column_name1', 'column_name2', label='simple-plot-label', color='#0066cc')
