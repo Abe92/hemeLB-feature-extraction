@@ -2,7 +2,7 @@
 """
 Date created : 27 August 2016
 @author      : Aldy Rasyid Abe
-@description : Create a new flat file with its modified features
+@description : Manual feature extraction with its building blocks
 """
 
 import pandas as pd
@@ -10,7 +10,7 @@ import numpy as np
 #import matplotlib.pyplot as plt
 
 ## Source file
-df = pd.read_csv('D:/Python/In/csv/dummy.csv')
+df = pd.read_csv('hemeLB-flat-file_name')
 
 ## List of original column names from the flat file
 step = df['step']
@@ -55,4 +55,4 @@ new_df = pd.DataFrame(raw_data,columns = ['step','grid_x','grid_y','grid_z','vel
 """
             Transform the new dataframe into flat file (CSV)
 """
-new_df.to_csv(r'D:/Python/In/csv/test_dummy.csv', header=True, index=None, sep=',', mode='a')
+new_df.to_csv(r'new-flat-file-name', header=True, index=None, sep=',', mode='a')
