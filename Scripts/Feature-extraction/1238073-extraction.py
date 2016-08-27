@@ -12,7 +12,7 @@ import numpy as np
 ## Source file
 df = pd.read_csv('hemeLB-flat-file_name')
 
-## List of original column names from the flat file
+## List of the original column names from the flat file
 step = df['step']
 gridx = df['grid_x']
 gridy = df['grid_y']
