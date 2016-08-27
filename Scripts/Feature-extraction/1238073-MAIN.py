@@ -36,7 +36,7 @@ magnitude = np.sqrt(velocity0*velocity0 + velocity1*velocity1 + velocity2*veloci
 """
 # (1) Create a dictionary
 # List all of the columns including its values
-raw_data = {'step': time_step,
+dictionary = {'step': time_step,
           'grid_x':gridx,
           'grid_y':gridy,
           'grid_z':gridz,
@@ -46,8 +46,8 @@ raw_data = {'step': time_step,
           'pressure':pressure,
           'magnitudes':magnitude}
 
-# (2) Create the new dataframe from the dictionary
-new_df = pd.DataFrame(raw_data,columns = ['step','grid_x','grid_y','grid_z','velocity(0)','velocity(1)','velocity(2)','pressure','magnitudes'])
+# (2) Create the new DataFrame from the dictionary
+new_df = pd.DataFrame(dictionary,columns = ['step','grid_x','grid_y','grid_z','velocity(0)','velocity(1)','velocity(2)','pressure','magnitudes'])
 
 """
             Transform the new dataframe into flat file (CSV)
