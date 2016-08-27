@@ -50,6 +50,6 @@ dictionary = {'step': time_step,
 new_df = pd.DataFrame(dictionary,columns = ['step','grid_x','grid_y','grid_z','velocity(0)','velocity(1)','velocity(2)','pressure','magnitudes'])
 
 """
-            Transform the new dataframe into flat file (CSV)
+            Transform the new DataFrame into flat file (CSV)
 """
 new_df.to_csv(r'new-flat-file-name', header=True, index=None, sep=',', mode='a')
