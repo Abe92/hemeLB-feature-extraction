@@ -10,7 +10,7 @@ import numpy as np
 #import matplotlib.pyplot as plt
 
 ## Source file
-df = pd.read_csv('hemeLB-flat_file_name')
+df = pd.read_csv('path/to/file.csv')
 
 ## List of the original column names from the flat file
 step = df['step']
@@ -52,4 +52,4 @@ new_df = pd.DataFrame(dictionary,columns = ['step','grid_x','grid_y','grid_z','v
 """
             Transform the new DataFrame into flat file (CSV)
 """
-new_df.to_csv(r'new-flat-file-name', header=True, index=None, sep=',', mode='a')
+new_df.to_csv(r'path/to/file.csv'', header=True, index=None, sep=',', mode='a')
