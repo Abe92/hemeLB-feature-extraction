@@ -7,7 +7,6 @@ Date created : 27 August 2016
 
 import pandas as pd
 import numpy as np
-#import matplotlib.pyplot as plt
 
 ## Source file
 df = pd.read_csv('path/to/file.csv')
