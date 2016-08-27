@@ -22,7 +22,6 @@ velocity1 = df['velocity(1)']
 velocity2 = df['velocity(2)']
 pressure = df['pressure']
 
-
 """
                             Calculator
 """
@@ -31,7 +30,6 @@ time_step = (step * 4.00E-06)
 
 #(2) Finding the magnitudes of the velocity vectors
 magnitude = np.sqrt(velocity0*velocity0 + velocity1*velocity1 + velocity2*velocity2)
-
 
 """
                     Creating new data frame 
@@ -50,7 +48,6 @@ raw_data = {'step': time_step,
 
 # (2) Create the new dataframe from the dictionary
 new_df = pd.DataFrame(raw_data,columns = ['step','grid_x','grid_y','grid_z','velocity(0)','velocity(1)','velocity(2)','pressure','magnitudes'])
-
 
 """
             Transform the new dataframe into flat file (CSV)
