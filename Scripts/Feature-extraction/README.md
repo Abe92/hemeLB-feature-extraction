@@ -17,7 +17,8 @@ Expected finish date on _6th September 2016_ <br/>
 
 __28th August 2016__ <br/>
 The script called __1238073-CLEANING.py__ is used to remove any white-spaces. <br/>
-Currently bugged as per __18:37:50 pm BST__
+Currently bugged as per __18:37:50 pm BST__ due to some incorrect logic. <br/>
+(It would be great if it is usable...)
 
 # UPDATE(s) <br/>
 
