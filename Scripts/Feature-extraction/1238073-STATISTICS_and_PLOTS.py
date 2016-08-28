@@ -35,7 +35,7 @@ print(datatype)                    # Output: (column_name      datatype)
 
 ## Descriptive statistics
 desc_stats = df.describe(percentiles=[.05, .25, .75, .95])
-desc_stats.csv(r'path/to/file.csv', sep=' ', mode='a')
+desc_stats.to_csv(r'path/to/file.csv', sep=' ', mode='a')
 
 # Correlation between attributes
 pearson_correlation = df.corr(method='pearson')
