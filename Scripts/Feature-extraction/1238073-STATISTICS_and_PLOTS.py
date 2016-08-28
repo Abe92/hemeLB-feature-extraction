@@ -29,7 +29,7 @@ magnitudes = df['magnitudes']
 dimensions = df.shape
 print(dimensions)          # Output ('number_of_rows', 'number_of_columns')
 
-## Each attribute/column data type
+## Each attributes/columns datatype
 datatype = df.dtypes
 print(datatype)                    # Output: (column_name      datatype)
 
