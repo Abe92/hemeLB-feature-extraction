@@ -11,7 +11,7 @@ import fileinput
 # Approach 1
 with open (r'path/to/file.csv') as f:
     for line in f:
-        cleanedLine = line.strip()
+        cleanedLine = line.rstrip()
         if cleanedLine: # is not empty
             print(cleanedLine)
             
