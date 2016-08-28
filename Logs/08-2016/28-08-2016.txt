@@ -2,12 +2,12 @@
 Log
 W2 3JR
 
--> Task: Updating the final report
+-> Task1: Updating the final report
 
 	commencing @ 10.00 am BST
 	finished   @ 15.07 pm BST
 	
--> What I did:
+-> What I did--1:
 
 	(1) Updating chapter 2 (Methodologies) about
 	    the subsection called 'updating the tools'
@@ -15,3 +15,13 @@ W2 3JR
 	(2) Start writing down the results of the
 	    tools created which described on the
 	    chapter 2 (Methodologies)
+
+-> Task2: Continue the task1
+
+	commencing @ ~16.30 pm BST
+	finished   @ 18.51 pm BST
+	
+-> What I did--2:
+
+	(1) Start writing chapter 3 ('Results'),
+	    currently at the 25% level of total 100% completion
