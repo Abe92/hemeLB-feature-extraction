@@ -24,7 +24,7 @@ pressure = df['pressure']
 """
                             Calculator
 """
-# (1) Converting the dimensionless step value into step value with unit of seconds
+# (1) Convert the dimensionless step value into step value with unit of seconds
 time_step = (step * 4.00E-06)
 
 #(2) Calculate the magnitudes of the velocity vectors
