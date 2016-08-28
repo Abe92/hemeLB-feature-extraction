@@ -26,8 +26,8 @@ magnitudes = df['magnitudes']
                       STATISTICS
 """
 ## Dimensions of data
-dimensions_of_data = df.shape
-print(dimensions_of_data)          # Output ('number_of_rows', 'number_of_columns')
+dimensions = df.shape
+print(dimensions)          # Output ('number_of_rows', 'number_of_columns')
 
 ## Each attribute/column data type
 datatype = df.dtypes
