@@ -12,8 +12,12 @@ Note(s):
 # IMPORTANT <br/>
 
 __27th August 2016__ <br/>
-The current code is not yet completed <br/>
+The current code for manual feature extraction is not yet completed <br/>
 Expected finish date on _6th September 2016_ <br/>
+
+__28th August 2016__ <br/>
+The script called __1238073-CLEANING.py__ is used to remove any white-spaces. <br/>
+Currently bugged as per __18:37:50 pm BST__
 
 # UPDATE(s) <br/>
 
