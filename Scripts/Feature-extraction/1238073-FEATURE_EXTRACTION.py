@@ -2,7 +2,7 @@
 """
 Created on Sun Aug 28 19:58:38 2016
 @author      : Aldy Rasyid Abe
-@description : The manual Feature Extraction by differences
+@description : The manual Feature Extraction grouped by the difference of column(s)
 """
 
 import pandas as pd
