@@ -27,3 +27,8 @@ The current code (__1238073-MAIN.py__) have been switched to only perform the fo
 (1) Convert the dimensionless __step__ into __time-step__ with seconds as its unit. <br/>
 (2) Perform the calculation of __magnitudes__ from the available __velocities vector__ in the data. <br/>
 (3) Create a __new flat file__ containings all of the modifications.
+
+__29th August 2016__ <br/>
+The Python script called __1238073-FEATURE_EXTRACTION.py__ main function is to manually extract the <br/>
+interesting feature of the difference of velocity between adjacent lattices and use that difference as __filter__. <br/>
+Currently in progress on building the __filter__ functionality as per __10.35 am BST__
