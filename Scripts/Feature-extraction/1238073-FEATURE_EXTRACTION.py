@@ -8,7 +8,7 @@ Created on Sun Aug 28 19:58:38 2016
 import pandas as pd
 
 ## Source file
-df = pd.read_csv('D:/Dissertation for MSc 2016-17/1238073 - Final Report/Data/experiment/planeOutTopFirst.csv')
+df = pd.read_csv('path/to/file.csv')
 
 ## List of the column names from the flat file
 step = df['step']
