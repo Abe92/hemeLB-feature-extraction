@@ -37,6 +37,11 @@ raw_data1 = {'step':step,
 df1 = pd.DataFrame(raw_data1, columns=['step','grid_x','grid_y','grid_z','magnitudes'])
 #print (df1.to_string(index=False))
 
-## Calculate difference
-df1['dMagnitudes'] = df.magnitudes.diff(-1)
-print(df1)
+## Create new column and calculate the difference
+#
+# The new column will be use to store the results of the difference
+df1['dMagnitudes'] = df.magnitudes.diff(-1) 
+print(df1)                                  
+                                              # The (-1) value within the diff function                      
+                                              # is used to specify the location of new column.
+                                              # (-1) means 'put this column after the last colum'
