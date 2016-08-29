@@ -16,9 +16,15 @@ The current code for manual feature extraction is not yet completed <br/>
 Expected finish date on _6th September 2016_ <br/>
 
 __28th August 2016__ <br/>
-The script called __1238073-CLEANING.py__ is used to remove any white-spaces. <br/>
+~~The script called __1238073-CLEANING.py__ is used to remove any white-spaces. <br/> 
 Currently bugged as per __18:37:50 pm BST__ due to some incorrect logic. <br/>
-(It would be great if it is usable...)
+(It would be great if it is usable...)~~
+
+__29th August 2016__ <br/>
+The script for data cleaning, __1238073-CLEANING.py__ is now usable and work as intended. <br/>
+It will remove any white-spaces, where in __Python__ are treated as __NaN__ (_Not-a-Number_) <br/>
+Using the function define on the script, there will be __no white-spaces between rows__ 
+
 
 # UPDATE(s) <br/>
 
