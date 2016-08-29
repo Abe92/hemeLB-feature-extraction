@@ -1,0 +1,14 @@
+29th August 2016
+Log
+W2 3JR
+
+-> Task: Creating the manual FE
+
+	commencing @ 09.00 am BST
+	finished   @ 11.39 pm BST
+	
+-> What I did:
+
+	(1) Creating the calculation for difference
+	    between row (of magnitudes columns) to use
+	    as a filter between adjacent lattices
