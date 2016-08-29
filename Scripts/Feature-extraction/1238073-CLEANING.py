@@ -2,7 +2,7 @@
 """
 Date created : 27 August 2016
 @author      : Aldy Rasyid Abe
-@description : Data cleaning - POSTPONED
+@description : Data cleaning - USABLE
 @update      : (1) 28 August 2016, still bugged don't use it
                (2) 29 August 2016, FIX. It is now able to remove all white-spaces!
 """
