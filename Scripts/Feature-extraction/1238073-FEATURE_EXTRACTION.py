@@ -39,7 +39,7 @@ df1 = pd.DataFrame(raw_data1, columns=['step','grid_x','grid_y','grid_z','magnit
 ## Create new column and calculate the difference
 #
 # The new column will be use to store the results of the difference
-df1['dMagnitudes'] = df.magnitudes.diff(-1)     # (-1) means 'put this column after the last colum'
+df1['dMagnitudes'] = df.magnitudes.diff(-1)     # (-1) means 'put this column after the last column'
                                               
 """
                 Find velocity vectors difference
@@ -63,7 +63,7 @@ df2 = pd.DataFrame(raw_data2,columns=['step','grid_x','grid_y','grid_z',
                                       
 ## Calculate difference
 df2['dVelocity'] = df2['velocity(0)'] - df2['velocity(1)'] - df2['velocity(2)'].shift(-1) # (-1) means 'put this column 
-                                                                                          # after the last colum'
+                                                                                          # after the last column'
 
 """
                 Save into flat file
