@@ -73,3 +73,24 @@ df1.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
 
 ## Velocity vectors - save into a file 
 df2.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
+
+"""
+                Descriptive Statistics
+"""
+## Magnitudes
+fill_NaN1 = df1.fillna(0)                   # Replace all NaN values with 0,
+                                            # so we can get all the values of each quartiles (25th, 50th, 75th)
+                                            # But is it valid ?
+                                            # The other value excluding count such as mean, standard deviation,
+                                            # minimum and maximum are not affected by it.
+mag_desc_stats = fill_NaN1.describe()
+print(mag_desc_stats)
+
+## Velocity vectors
+fill_NaN2 = df2.fillna(0)                   # Replace all NaN values with 0
+                                            # so we can get all the values of each quartiles (25th, 50th, 75th)
+                                            # But is it valid ?
+                                            # The other value excluding count such as mean, standard deviation,
+                                            # minimum and maximum are not affected by it.
+vel_desc_stats = fill_NaN2.describe()
+print(vel_desc_stats)
