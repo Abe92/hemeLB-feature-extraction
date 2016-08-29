@@ -35,13 +35,41 @@ raw_data1 = {'step':step,
 
 ## Create the new dataframe from the dictionary            
 df1 = pd.DataFrame(raw_data1, columns=['step','grid_x','grid_y','grid_z','magnitudes'])
-#print (df1.to_string(index=False))
 
 ## Create new column and calculate the difference
 #
 # The new column will be use to store the results of the difference
-df1['dMagnitudes'] = df.magnitudes.diff(-1) 
-print(df1)                                  
-                                              # The (-1) value within the diff function                      
-                                              # is used to specify the location of new column.
-                                              # (-1) means 'put this column after the last colum'
+df1['dMagnitudes'] = df.magnitudes.diff(-1)     # (-1) means 'put this column after the last colum'
+                                              
+"""
+                Find velocity vectors difference
+"""
+## Create a dictionary
+#
+# List all of the columns including its values
+raw_data2 = {'step':step,
+            'grid_x':gridx,
+            'grid_y':gridy,
+            'grid_z':gridz,
+            'velocity(0)':velocity0,
+            'velocity(1)':velocity1,
+            'velocity(2)':velocity2,
+            'pressure':pressure}
+            
+## Calculate difference
+df2 = pd.DataFrame(raw_data2,columns=['step','grid_x','grid_y','grid_z',
+                                      'velocity(0)','velocity(1)','velocity(2)',
+                                      'pressure'])
+                                      
+## Calculate difference
+df2['dVelocity'] = df2['velocity(0)'] - df2['velocity(1)'] - df2['velocity(2)'].shift(-1) # (-1) means 'put this column 
+                                                                                          # after the last colum'
+
+"""
+                Save into flat file
+"""
+## Magnitudes difference - save into a file 
+df1.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
+
+## Velocity vectors - save into a file 
+df2.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
