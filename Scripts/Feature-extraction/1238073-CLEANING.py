@@ -10,8 +10,8 @@ Date created : 27 August 2016
 import pandas as pd
 
 df = pd.read_csv('path/to/file.csv')
-df_no_missing = df.dropna()
-df_no_missing.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
+rm_nan = df.dropna()
+rm_nan.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
 
 #import fileinput
 # Approach 1
