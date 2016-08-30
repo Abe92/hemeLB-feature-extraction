@@ -13,7 +13,7 @@ Note(s):
 
 __27th August 2016__ <br/>
 The current code for manual feature extraction is not yet completed <br/>
-Expected finish date on _6th September 2016_ <br/>
+Expected finish date on _6th September 2016_. <br/>
 
 __28th August 2016__ <br/>
 ~~The script called __1238073-CLEANING.py__ is used to remove any white-spaces. <br/> 
@@ -23,7 +23,7 @@ Currently bugged as per __18:37:50 pm BST__ due to some incorrect logic. <br/>
 __29th August 2016__ <br/>
 The script for data cleaning, __1238073-CLEANING.py__ is now usable and work as intended. <br/>
 It will remove any white-spaces, where in __Python__ are treated as __NaN__ (_Not-a-Number_) <br/>
-Using the function define on the script, there will be __no white-spaces between rows__ 
+Using the function define on the script, there will be __no white-spaces between rows__. 
 
 
 # UPDATE(s) <br/>
@@ -37,4 +37,4 @@ The current code (__1238073-MAIN.py__) have been switched to only perform the fo
 __29th August 2016__ <br/>
 The Python script called __1238073-FEATURE_EXTRACTION.py__ main function is to manually extract the <br/>
 interesting feature of the difference of velocity between adjacent lattices and use that difference as __filter__. <br/>
-Currently in progress on building the __filter__ functionality as per __10.35 am BST__
+Currently in progress on building the __filter__ functionality as per __10.35 am BST__.
