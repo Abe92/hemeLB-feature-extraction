@@ -7,7 +7,6 @@ Created on Wed Aug 31 23:13:47 2016
 """
 
 # Feature Extraction with Filter Methods
-# using the correlation coefficient scores
 
 import pandas as pd
 
