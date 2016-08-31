@@ -12,7 +12,7 @@ Created on Wed Aug 31 23:13:47 2016
 import pandas as pd
 
 # Load data
-file = "D:/Python/In/csv/m_l.txt"
+file = "path/to/file.txt" # "path/to/file.csv"
 names = ['step','grid_x','grid_y','grid_z',
         'velocity(0)','velocity(1)','velocity(2)',
         'magnitudes','pressure']
