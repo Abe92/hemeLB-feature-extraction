@@ -33,7 +33,7 @@ raw_data1 = {'step':step,
             'grid_z':gridz,
             'magnitudes':magnitudes}
 
-## Create the new dataframe from the dictionary            
+## Create a new dataframe from the dictionary            
 df1 = pd.DataFrame(raw_data1, columns=['step','grid_x','grid_y','grid_z','magnitudes'])
 
 ## Create new column and calculate the difference
@@ -56,12 +56,14 @@ raw_data2 = {'step':step,
             'velocity(2)':velocity2,
             'pressure':pressure}
             
-## Calculate difference
+## Create a new dataframe from the dictionary
 df2 = pd.DataFrame(raw_data2,columns=['step','grid_x','grid_y','grid_z',
                                       'velocity(0)','velocity(1)','velocity(2)',
                                       'pressure'])
                                       
-## Calculate difference
+## Create new column and calculate the difference
+#
+# The new column will be use to store the results of the difference
 df2['dVelocity'] = df2['velocity(0)'] - df2['velocity(1)'] - df2['velocity(2)'].shift(-1) # (-1) means 'put this column 
                                                                                           # after the last column'
 
