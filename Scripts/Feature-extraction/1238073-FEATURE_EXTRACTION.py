@@ -18,7 +18,7 @@ names = ['step','grid_x','grid_y','grid_z',
 df = pd.read_csv(file, names=names)
 
 """
-Method (1): Calculating the correlation coefficient
+Step (1): Calculating the correlation coefficient
 """
 # Correlation coefficient scores
 pearson_correlation = df.corr(method='pearson')
