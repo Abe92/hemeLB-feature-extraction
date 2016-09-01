@@ -16,9 +16,19 @@ names = ['step','grid_x','grid_y','grid_z',
         'magnitudes','pressure']
 df = pd.read_csv(file, names=names)
 
-"""
-Step (1): Calculating the correlation coefficient
-"""
+# Dimensions of data
+dimensions = df.shape
+print(dimensions)
+
+# Attributes/Columns datatype
+data_types = df.dtypes
+print(data_types)
+
+# Descriptive statistics
+desc_stats = df.describe()
+print(desc_stats)
+#desc_stats.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
+
 # Correlation coefficient scores
 pearson_correlation = df.corr(method='pearson')
 print(pearson_correlation)
