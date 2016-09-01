@@ -2,7 +2,7 @@
 """
 Created on Wed Aug 31 23:13:47 2016
 @author      : Aldy Rasyid Abe
-@description : Feature Extraction with Filter Methods
+@description : Feature Extraction
 """
 
 # Feature Extraction with Filter Methods
