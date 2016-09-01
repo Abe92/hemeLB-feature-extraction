@@ -3,14 +3,13 @@
 Created on Wed Aug 31 23:13:47 2016
 @author      : Aldy Rasyid Abe
 @description : Feature Extraction with Filter Methods
-                (1) Correlation coefficient scores
 """
 
 # Feature Extraction with Filter Methods
 
 import pandas as pd
 
-# Load data
+# Load the data
 file = "path/to/file.txt" # "path/to/file.csv"
 names = ['step','grid_x','grid_y','grid_z',
         'velocity(0)','velocity(1)','velocity(2)',
