@@ -52,4 +52,4 @@ new_df = pd.DataFrame(dictionary,columns = ['step','grid_x','grid_y','grid_z','v
 """
             Transform the new DataFrame into flat file (CSV)
 """
-new_df.to_csv(r'path/to/file.csv'', header=True, index=None, sep=',', mode='a')
+new_df.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
