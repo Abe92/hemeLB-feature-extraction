@@ -46,7 +46,8 @@ dictionary = {'step': time_step,
           'magnitudes':magnitude}
 
 # (2) Create the new DataFrame from the dictionary
-new_df = pd.DataFrame(dictionary,columns = ['step','grid_x','grid_y','grid_z','velocity(0)','velocity(1)','velocity(2)','pressure','magnitudes'])
+new_df = pd.DataFrame(dictionary,columns = ['step','grid_x','grid_y','grid_z','velocity(0)',
+                                            'velocity(1)','velocity(2)','pressure','magnitudes'])
 
 """
             Transform the new DataFrame into flat file (CSV)
