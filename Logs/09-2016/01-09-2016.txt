@@ -1,0 +1,24 @@
+01st September 2016
+Log
+W2 3JR
+
+(1) Task1: Create the manual feature extraction
+
+	commencing @ ~10.00 am BST
+	finished   @ ~13.30 pm BST
+	
+-> What I did1: 
+
+	(1) Create the manual feature extraction
+	    code to filter the data based on the
+	    velocity difference
+	    
+(2) Task2: Updating and polishing report
+
+	commencing @ ~16.30 pm BST
+	finished   @ 19.30 pm BST
+	
+-> What I did2:
+
+	(1) Fixing page format and adding
+	    more information to the chapter 3 (Results)
