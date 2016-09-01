@@ -68,7 +68,7 @@ new_df = pd.DataFrame(data, columns=['grid_x','grid_y','grid_z',
 #new_df.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
 
 """
-(4) Feature selection
+(4) Feature extraction - experimentation
     (4.1) 'filter by the size of velocity differences
            between adjacent lattice sites'
 """
