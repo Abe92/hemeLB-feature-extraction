@@ -10,7 +10,7 @@ Created on Wed Aug 31 23:13:47 2016
 import pandas as pd
 
 # Load the data
-file = "D:/Python/In/csv/m_l.txt"
+file = "path/to/file.txt"                       # file = "path/to/file.csv"
 names = ['step','grid_x','grid_y','grid_z',
         'velocity(0)','velocity(1)','velocity(2)',
         'magnitudes','pressure']
@@ -44,8 +44,8 @@ def pearson_correlation(data):
 """
 (2) Experimentation
 """
-# Candidate 1 - find the difference between velocity vectors (0,1 and 2)
-df['dVelocities'] = df['velocity(0)'] - df['velocity(1)'] - df['velocity(2)'].shift(-1)
+# Candidate 1 - find the difference between velocity vectors (2,1 and 0)
+df['dVelocities'] = df['velocity(2)'] - df['velocity(1)'] - df['velocity(0)'].shift(-1)
 df['dVelocities'].fillna(0, inplace=True)
 
 # Candidate 2 - find the difference of magnitudes
