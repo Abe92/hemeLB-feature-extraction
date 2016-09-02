@@ -77,16 +77,10 @@ new_df = pd.DataFrame(data, columns=['grid_x','grid_y','grid_z',
            between adjacent lattice sites'
 """
 ## 4.1
-# Dimensions of data
+
 dimension(new_df)
-
-# Attributes/Columns datatype
 data_types(new_df)
-
-# Descriptive statistics
 desc_stats(new_df)
-
-# Correlation coefficient score (Pearson)
 pearson_correlation(new_df)
 
 # Sort the velocities difference by the highest
