@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ## Source file
-df = pd.read_csv('path/to/file.csv')
+df = pd.read_csv('path/to/file.csv')      # df = pd.read_csv('path/to/file.txt')
 
 ## List of the column names from the flat file
 step = df['step']
@@ -23,45 +23,52 @@ pressure = df['pressure']
 magnitudes = df['magnitudes']
 
 """
-                      STATISTICS
+                STATISTICS RELATED CODES
 """
 ## Dimensions of data
-dimensions = df.shape
-print(dimensions)          # Output ('number_of_rows', 'number_of_columns')
+def dimension(data):
+    dimensions_of_data = data.shape
+    print(dimensions_of_data)          # Output ('number_of_rows', 'number_of_columns')
 
-## Each attributes/columns datatype
-datatype = df.dtypes
-print(datatype)                    # Output: (column_name      datatype)
+## Each attribute/column data type
+def datatypes(data):
+    datatype = df.dtypes
+    print(datatype)                    # Output: (column_name      datatype)
 
 ## Descriptive statistics
-desc_stats = df.describe(percentiles=[.05, .25, .75, .95])
-desc_stats.to_csv(r'path/to/file.csv', sep=',', mode='a')
+def desc_statistics(data):
+    desc_stats = data.describe(percentiles=[.05, .25, .75, .95])
+    print(desc_stats)
 
 # Correlation between attributes
-pearson_correlation = df.corr(method='pearson')
-pearson_correlation.to_csv(r'path/to/file.csv', sep=',', mode='a')
+def pearson_correlation(data):
+    correlation = data.corr(method='pearson')
+    print(correlation)
 
 # Skewness
-skewness = df.skew()
-skewness.to_csv(r'path/to/file.csv', sep=',', mode='a')
+def skewness(data):
+    skewness = data.skew()
+    print(skewness)
 
 """
-                    PLOTS
+                PLOT CODES to make FIGURES
 """
 ## Simple plots
-plt.plot('column_name1', 'column_name2', label='simple-plot-label', color='#0066cc')
+plt.plot(column_1, column_2, label='simple-plot-label', color='#0066cc')
 plt.xlabel('x-axes-label')
 plt.ylabel('y-axes-label')
 plt.title('simple-plot-title')
 plt.grid(True)
 plt.legend()
-plt.savefig('path/to/figure.png')
+plt.show()
+#plt.savefig('path/to/figure.png')
 
 ## Scatter plot
-plt.scatter('column_name1', 'column_name2', label='scatter-plot-label', color='#0066cc')
+plt.scatter(column_1, column_2, label='scatter-plot-label', color='#0066cc')
 plt.xlabel('x-axes-label')
-plt.ylabel('y-label-label')
+plt.ylabel('y-axes-label')
 plt.title('scatter-plot-title')
 plt.grid(True)
 plt.legend()
-plt.savefig('path/to/figure.png')
+plt.show()
+#plt.savefig('path/to/figure.png')
