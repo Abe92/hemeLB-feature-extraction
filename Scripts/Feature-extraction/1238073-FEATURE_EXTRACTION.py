@@ -10,27 +10,36 @@ Created on Wed Aug 31 23:13:47 2016
 import pandas as pd
 
 # Load the data
-file = "path/to/file.txt" # "path/to/file.csv"
+file = "D:/Python/In/csv/m_l.txt"
 names = ['step','grid_x','grid_y','grid_z',
         'velocity(0)','velocity(1)','velocity(2)',
         'magnitudes','pressure']
 df = pd.read_csv(file, names=names)
 
 """
-(1) Describing the data
+(1) List of functions to describe data
 """
 # Dimensions of data
-dimensions = df.shape
-print(dimensions)
+def dimension(data):
+    dimensions = data.shape
+    print(dimensions)
 
 # Attributes/Columns datatype
-data_types = df.dtypes
-print(data_types)
+def data_types(data):
+    data_types = data.dtypes
+    print(data_types)
 
 # Descriptive statistics
-desc_stats = df.describe()
-print(desc_stats)
-#desc_stats.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
+def desc_stats(data):
+    desc_stats = data.describe()
+    print(desc_stats)
+    #desc_stats.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
+
+# Correlation coefficient scores
+def pearson_correlation(data):
+    pearson_correlation = data.corr(method='pearson')
+    print(pearson_correlation)
+    #pearson_correlation.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
 
 """
 (2) Experimentation
@@ -45,11 +54,6 @@ df['dMagnitudes'].fillna(0, inplace=True)
 
 # Print the result
 #print(df)
-
-# Correlation coefficient scores
-pearson_correlation = df.corr(method='pearson')
-print(pearson_correlation)
-#pearson_correlation.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
 
 """
 (3) Feature extraction - dimensionality reduction
@@ -74,16 +78,16 @@ new_df = pd.DataFrame(data, columns=['grid_x','grid_y','grid_z',
 """
 ## 4.1
 # Dimensions of data
-new_dimensions = new_df.shape
-print(new_dimensions)
+dimension(new_df)
 
 # Attributes/Columns datatype
-new_data_types = new_df.dtypes
-print(new_data_types)
+data_types(new_df)
 
 # Descriptive statistics
-desc_stats_new_df = new_df.describe()
-print(desc_stats_new_df)
+desc_stats(new_df)
+
+# Correlation coefficient score (Pearson)
+pearson_correlation(new_df)
 
 # Sort the velocities difference by the highest
 sort_df = new_df.sort_values(by=['dVelocities'], ascending=False)
@@ -91,7 +95,7 @@ sort_df = new_df.sort_values(by=['dVelocities'], ascending=False)
 
 # Filter the size of velocity difference
 filter_greater_df = new_df[new_df['dVelocities'] >= 0]
-print(filter_greater_df.to_string(index=False))
+#print(filter_greater_df.to_string(index=False))
 
 filter_less_df = new_df[new_df['dVelocities'] <= 0]
-print(filter_less_df.to_string(index=False))
+#print(filter_less_df.to_string(index=False))
