@@ -37,7 +37,7 @@ def datatypes(data):
 
 ## Descriptive statistics
 def desc_statistics(data):
-    desc_stats = data.describe(percentiles=[.05, .25, .75, .95])
+    desc_stats = data.describe()      # desc_stats = data.describe(percentiles=[.05, .25, .75, .95])
     print(desc_stats)
 
 # Correlation between attributes
