@@ -10,7 +10,7 @@ Created on Wed Aug 31 23:13:47 2016
 import pandas as pd
 
 # Load the data
-file = "path/to/file.txt"                       # file = "path/to/file.csv"
+file = "D:/Python/In/csv/m_l.txt"
 names = ['step','grid_x','grid_y','grid_z',
         'velocity(0)','velocity(1)','velocity(2)',
         'magnitudes','pressure']
@@ -33,13 +33,13 @@ def data_types(data):
 def desc_stats(data):
     desc_stats = data.describe()
     print(desc_stats)
-    #desc_stats.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
+    #desc_stats.to_csv(r'D:/Python/In/csv/featureXtraction_stats.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
 
 # Correlation coefficient scores
 def pearson_correlation(data):
     pearson_correlation = data.corr(method='pearson')
     print(pearson_correlation)
-    #pearson_correlation.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
+    #pearson_correlation.to_csv(r'D:/Python/In/csv/featureXtraction_corr', sep=',', mode='a') # Uncomment this line to save the output to flat file
 
 """
 (2) Feature extraction - create a new variable from existing variables
@@ -72,9 +72,10 @@ new_df = pd.DataFrame(data, columns=['step',
                                      'grid_z',
                                      'dVelocities',
                                      'dMagnitudes',
-                                     'pressure'])                                     
+                                     'pressure'])
+#print(new_df.head(5))
 #print (new_df.to_string(index=False))
-#new_df.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
+#new_df.to_csv(r'D:/Python/In/csv/featureXtraction.csv', header=True, index=None, sep=',', mode='a')
 
 """
 (4) Feature extraction - experimentation
@@ -89,11 +90,11 @@ sort_df = new_df.sort_values(by=['dVelocities'], ascending=False)
 ## Filter by the size of velocity difference
 filter_greater_vel = new_df[new_df['dVelocities'] >= 0]
 filter_less_vel = new_df[new_df['dVelocities'] <= 0]
-#print(filter_greater.to_string(index=False))
-#print(filter_less.to_string(index=False))
+#print(filter_greater_vel.head(5))
+#print(filter_less_vel.head(5))
 
 ## Filter by the size of magnitude difference
 filter_greater_mag = new_df[new_df['dMagnitudes'] >= 0]
 filter_less_mag = new_df[new_df['dMagnitudes'] <= 0]
-#print(filter_greater_mag.to_string(index=False))
-#print(filter_less_mag.to_string(index=False))
+#print(filter_greater_mag.head(5))
+#print(filter_less_mag.head(5))
