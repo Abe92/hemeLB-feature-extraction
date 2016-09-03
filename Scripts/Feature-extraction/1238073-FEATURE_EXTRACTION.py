@@ -5,7 +5,7 @@ Created on Wed Aug 31 23:13:47 2016
 @description : Feature Extraction
 """
 
-# Feature Extraction with Filter Methods
+# Manual feature extraction
 
 import pandas as pd
 
@@ -42,7 +42,7 @@ def pearson_correlation(data):
     #pearson_correlation.to_csv(r'path/to/file.csv', sep=',', mode='a') # Uncomment this line to save the output to flat file
 
 """
-(2) Experimentation
+(2) Feature extraction - create a new variable from existing variables
 """
 # Candidate 1 - find the difference between velocity vectors (2,1 and 0)
 df['dVelocities'] = df['velocity(2)'] - df['velocity(1)'] - df['velocity(0)'].shift(-1)
@@ -56,20 +56,23 @@ df['dMagnitudes'].fillna(0, inplace=True)
 #print(df)
 
 """
-(3) Feature extraction - dimensionality reduction
+(3) Feature extraction - new dataset
 """
-data = {'step':df['step']
+data = {'step':df['step'],
         'grid_x':df['grid_x'],
         'grid_y':df['grid_y'],
         'grid_z':df['grid_z'],
-        'pressure':df['pressure'],
         'dVelocities':df['dVelocities'],
-        'dMagnitudes':df['dMagnitudes']}
+        'dMagnitudes':df['dMagnitudes'],
+        'pressure':df['pressure']}
         
-new_df = pd.DataFrame(data, columns=['step','grid_x','grid_y',
-                                     'grid_z','pressure',
+new_df = pd.DataFrame(data, columns=['step',
+                                     'grid_x',
+                                     'grid_y',
+                                     'grid_z',
                                      'dVelocities',
-                                     'dMagnitudes'])                                     
+                                     'dMagnitudes',
+                                     'pressure'])                                     
 #print (new_df.to_string(index=False))
 #new_df.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
 
@@ -83,10 +86,8 @@ new_df = pd.DataFrame(data, columns=['step','grid_x','grid_y',
 sort_df = new_df.sort_values(by=['dVelocities'], ascending=False)
 #print(sort_df.to_string(index=False))
 
-## Filter by the size of velocity difference
+## Filter the size of velocity difference
 filter_greater = new_df[new_df['dVelocities'] >= 0]
 filter_less = new_df[new_df['dVelocities'] <= 0]
 #print(filter_greater.to_string(index=False))
 #print(filter_less.to_string(index=False))
-
-## Filter by the size of magnitudes difference
