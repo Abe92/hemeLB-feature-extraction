@@ -58,15 +58,17 @@ df['dMagnitudes'].fillna(0, inplace=True)
 """
 (3) Feature extraction - dimensionality reduction
 """
-data = {'grid_x':df['grid_x'],
+data = {'step':df['step']
+        'grid_x':df['grid_x'],
         'grid_y':df['grid_y'],
         'grid_z':df['grid_z'],
         'pressure':df['pressure'],
         'dVelocities':df['dVelocities'],
         'dMagnitudes':df['dMagnitudes']}
         
-new_df = pd.DataFrame(data, columns=['grid_x','grid_y','grid_z',
-                                     'pressure','dVelocities',
+new_df = pd.DataFrame(data, columns=['step','grid_x','grid_y',
+                                     'grid_z','pressure',
+                                     'dVelocities',
                                      'dMagnitudes'])                                     
 #print (new_df.to_string(index=False))
 #new_df.to_csv(r'path/to/file.csv', header=True, index=None, sep=',', mode='a')
