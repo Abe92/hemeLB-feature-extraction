@@ -91,3 +91,9 @@ filter_greater_vel = new_df[new_df['dVelocities'] >= 0]
 filter_less_vel = new_df[new_df['dVelocities'] <= 0]
 #print(filter_greater.to_string(index=False))
 #print(filter_less.to_string(index=False))
+
+## Filter by the size of magnitude difference
+filter_greater_mag = new_df[new_df['dMagnitudes'] >= 0]
+filter_less_mag = new_df[new_df['dMagnitudes'] <= 0]
+#print(filter_greater_mag.to_string(index=False))
+#print(filter_less_mag.to_string(index=False))
