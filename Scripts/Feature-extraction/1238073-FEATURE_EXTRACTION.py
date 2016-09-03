@@ -79,19 +79,14 @@ new_df = pd.DataFrame(data, columns=['step','grid_x','grid_y',
            between adjacent lattice sites'
 """
 ## 4.1
-
-dimension(new_df)
-data_types(new_df)
-desc_stats(new_df)
-pearson_correlation(new_df)
-
-# Sort the velocities difference by the highest
+## Sort the velocities difference by the highest
 sort_df = new_df.sort_values(by=['dVelocities'], ascending=False)
 #print(sort_df.to_string(index=False))
 
-# Filter the size of velocity difference
+## Filter by the size of velocity difference
 filter_greater = new_df[new_df['dVelocities'] >= 0]
-#print(filter_greater.to_string(index=False))
-
 filter_less = new_df[new_df['dVelocities'] <= 0]
+#print(filter_greater.to_string(index=False))
 #print(filter_less.to_string(index=False))
+
+## Filter by the size of magnitudes difference
