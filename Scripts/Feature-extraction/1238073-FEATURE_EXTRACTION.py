@@ -90,8 +90,8 @@ sort_df = new_df.sort_values(by=['dVelocities'], ascending=False)
 #print(sort_df.to_string(index=False))
 
 # Filter the size of velocity difference
-filter_greater_df = new_df[new_df['dVelocities'] >= 0]
-#print(filter_greater_df.to_string(index=False))
+filter_greater = new_df[new_df['dVelocities'] >= 0]
+#print(filter_greater.to_string(index=False))
 
-filter_less_df = new_df[new_df['dVelocities'] <= 0]
-#print(filter_less_df.to_string(index=False))
+filter_less = new_df[new_df['dVelocities'] <= 0]
+#print(filter_less.to_string(index=False))
