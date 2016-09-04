@@ -2,8 +2,10 @@
 """
 Created on Wed Aug 31 23:41:34 2016
 @author: Aldy Rasyid Abe
-@description : Feature Extraction machine learning with PCA
-               *PCA - Principal Component Analysis, a linear dimensionality reduction
+@description: Feature Extraction machine learning with PCA
+              *PCA - Principal Component Analysis, a linear dimensionality reduction
+@credits: Jason Brownlee
+          (http://machinelearningmastery.com/feature-selection-machine-learning-python/)
 """
 
 import pandas as pd
