@@ -2,10 +2,8 @@
 """
 Created on Wed Aug 31 23:13:47 2016
 @author      : Aldy Rasyid Abe
-@description : Feature Extraction
+@description : 'Manual' Feature Extraction
 """
-
-# Manual feature extraction
 
 import pandas as pd
 
@@ -73,6 +71,10 @@ new_df = pd.DataFrame(data, columns=['step',
                                      'dVelocities',
                                      'dMagnitudes',
                                      'pressure'])
+
+desc_stats(new_df)
+pearson_correlation(new_df)
+
 #print(new_df.head(5))
 #print (new_df.to_string(index=False))
 #new_df.to_csv(r'D:/Python/In/csv/featureXtraction.csv', header=True, index=None, sep=',', mode='a')
@@ -88,13 +90,13 @@ sort_df = new_df.sort_values(by=['dVelocities'], ascending=False)
 #print(sort_df.to_string(index=False))
 
 ## Filter by the size of velocity difference
-filter_greater_vel = new_df[new_df['dVelocities'] >= 0]
-filter_less_vel = new_df[new_df['dVelocities'] <= 0]
+filter_greater_vel = new_df[new_df['dVelocities'] >= 0.005]
+filter_less_vel = new_df[new_df['dVelocities'] <= 0.005]
 #print(filter_greater_vel.head(5))
 #print(filter_less_vel.head(5))
 
 ## Filter by the size of magnitude difference
-filter_greater_mag = new_df[new_df['dMagnitudes'] >= 0]
-filter_less_mag = new_df[new_df['dMagnitudes'] <= 0]
+filter_greater_mag = new_df[new_df['dMagnitudes'] >= 0.005]
+filter_less_mag = new_df[new_df['dMagnitudes'] <= 0.005]
 #print(filter_greater_mag.head(5))
 #print(filter_less_mag.head(5))
