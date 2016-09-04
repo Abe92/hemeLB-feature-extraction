@@ -1,6 +1,6 @@
 # Feature extraction
 
-The script to perform __manual feature extraction__ of hemeLB file
+The script to perform __manual FE__  and __automated FE__ of hemeLB file
 
 Note(s):
 
