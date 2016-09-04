@@ -2,7 +2,7 @@
 """
 Date created : 27 August 2016
 @author      : Aldy Rasyid Abe
-@description : Manual feature extraction with its building blocks
+@description : Data Transformation
 """
 
 import pandas as pd
