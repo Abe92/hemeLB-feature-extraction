@@ -58,7 +58,7 @@ print("Magnitudes","\n",magnitude_summary)
 
 # Pressure
 pressure_summary = pressure.describe(percentiles=[.05, .25, .75, .95])
-print("P
+print("Pressure","\n",pressure_summary")
 
 # Correlation between attributes
 pearson_correlation = df.corr(method='pearson')
